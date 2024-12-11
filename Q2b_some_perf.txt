@@ -1,0 +1,302 @@
+********** Normal 3D loop *************************
+
+┏[ ajit from  MSI][ 0.008s][ RAM: 3/8GB][ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo bash ./q2b2.sh
+[sudo] password for ajit:
+Running with N=16
+
+ Performance counter stats for './matmul_3d.out':
+
+              0.97 msec task-clock                #    0.764 CPUs utilized
+           3311408      cycles                    #    3.419 GHz
+           3398113      instructions              #    1.03  insn per cycle
+            119998      cache-references          #  123.901 M/sec
+             30965      cache-misses              #   25.805 % of all cache refs
+            809081      L1-dcache-loads           #  835.396 M/sec
+             46749      L1-dcache-load-misses     #    5.78% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.001267700 seconds time elapsed
+
+       0.001251000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=32
+
+ Performance counter stats for './matmul_3d.out':
+
+              0.79 msec task-clock                #    0.790 CPUs utilized
+           3078283      cycles                    #    3.875 GHz
+           3810689      instructions              #    1.24  insn per cycle
+            122056      cache-references          #  153.646 M/sec
+             32238      cache-misses              #   26.412 % of all cache refs
+            935864      L1-dcache-loads           # 1178.077 M/sec
+             52754      L1-dcache-load-misses     #    5.64% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.001005600 seconds time elapsed
+
+       0.001018000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=64
+
+ Performance counter stats for './matmul_3d.out':
+
+              0.93 msec task-clock                #    0.749 CPUs utilized
+           3893237      cycles                    #    4.192 GHz
+           6440801      instructions              #    1.65  insn per cycle
+            130367      cache-references          #  140.376 M/sec
+             35802      cache-misses              #   27.462 % of all cache refs
+           1771887      L1-dcache-loads           # 1907.922 M/sec
+             55785      L1-dcache-load-misses     #    3.15% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.001240100 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001248000 seconds sys
+
+
+Running with N=128
+
+ Performance counter stats for './matmul_3d.out':
+
+              2.28 msec task-clock                #    0.921 CPUs utilized
+           8951184      cycles                    #    3.920 GHz
+          25125065      instructions              #    2.81  insn per cycle
+            144240      cache-references          #   63.172 M/sec
+             39861      cache-misses              #   27.635 % of all cache refs
+           7843960      L1-dcache-loads           # 3435.361 M/sec
+            196946      L1-dcache-load-misses     #    2.51% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.002478100 seconds time elapsed
+
+       0.000000000 seconds user
+       0.002487000 seconds sys
+
+
+Running with N=256
+
+ Performance counter stats for './matmul_3d.out':
+
+             12.01 msec task-clock                #    0.987 CPUs utilized
+          48571421      cycles                    #    4.044 GHz
+         165739887      instructions              #    3.41  insn per cycle
+           1007281      cache-references          #   83.859 M/sec
+             58109      cache-misses              #    5.769 % of all cache refs
+          54117820      L1-dcache-loads           # 4505.463 M/sec
+           1332500      L1-dcache-load-misses     #    2.46% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.012164499 seconds time elapsed
+
+       0.012201000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=512
+
+ Performance counter stats for './matmul_3d.out':
+
+            125.91 msec task-clock                #    0.998 CPUs utilized
+         504613693      cycles                    #    4.008 GHz
+        1256461960      instructions              #    2.49  insn per cycle
+          15350139      cache-references          #  121.913 M/sec
+            235168      cache-misses              #    1.532 % of all cache refs
+         415325655      L1-dcache-loads           # 3298.581 M/sec
+         193042931      L1-dcache-load-misses     #   46.48% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.126144291 seconds time elapsed
+
+       0.126171000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=1024
+
+ Performance counter stats for './matmul_3d.out':
+
+           1211.36 msec task-clock                #    1.000 CPUs utilized
+        4815775459      cycles                    #    3.975 GHz
+        9847195782      instructions              #    2.04  insn per cycle
+         293151390      cache-references          #  242.001 M/sec
+           7009980      cache-misses              #    2.391 % of all cache refs
+        3269381061      L1-dcache-loads           # 2698.924 M/sec
+        1549969971      L1-dcache-load-misses     #   47.41% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       1.211646818 seconds time elapsed
+
+       1.211590000 seconds user
+       0.000000000 seconds sys
+
+
+
+
+
+
+
+
+
+
+
+
+
+************* Recursive Strassen *********************
+
+
+┏[ ajit from  MSI][ 0.008s][ RAM: 3/8GB][ Wednesday at 3:31:35 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo bash ./q2b.sh
+[sudo] password for ajit:
+Running with N=16
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+              3.63 msec task-clock                #    0.894 CPUs utilized
+           7437145      cycles                    #    2.051 GHz
+          15367435      instructions              #    2.07  insn per cycle
+            176566      cache-references          #   48.686 M/sec
+             44974      cache-misses              #   25.471 % of all cache refs
+           3978735      L1-dcache-loads           # 1097.098 M/sec
+             55225      L1-dcache-load-misses     #    1.39% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.004056701 seconds time elapsed
+
+       0.004091000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=32
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+              6.74 msec task-clock                #    0.950 CPUs utilized
+          28009614      cycles                    #    4.154 GHz
+          87723732      instructions              #    3.13  insn per cycle
+            121596      cache-references          #   18.033 M/sec
+             47466      cache-misses              #   39.036 % of all cache refs
+          23175312      L1-dcache-loads           # 3436.893 M/sec
+             56193      L1-dcache-load-misses     #    0.24% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.007098402 seconds time elapsed
+
+       0.007146000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=64
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+             43.90 msec task-clock                #    0.992 CPUs utilized
+         177415257      cycles                    #    4.041 GHz
+         593634614      instructions              #    3.35  insn per cycle
+            224253      cache-references          #    5.108 M/sec
+             73219      cache-misses              #   32.650 % of all cache refs
+         157444811      L1-dcache-loads           # 3586.181 M/sec
+            158467      L1-dcache-load-misses     #    0.10% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.044250111 seconds time elapsed
+
+       0.044281000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=128
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+            303.50 msec task-clock                #    0.999 CPUs utilized
+        1219996934      cycles                    #    4.020 GHz
+        4132276432      instructions              #    3.39  insn per cycle
+           1039478      cache-references          #    3.425 M/sec
+            257715      cache-misses              #   24.793 % of all cache refs
+        1096428329      L1-dcache-loads           # 3612.627 M/sec
+           1101840      L1-dcache-load-misses     #    0.10% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.303885077 seconds time elapsed
+
+       0.303820000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=256
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+           2130.67 msec task-clock                #    1.000 CPUs utilized
+        8490472014      cycles                    #    3.985 GHz
+       28902085702      instructions              #    3.40  insn per cycle
+           7647903      cache-references          #    3.589 M/sec
+           1551110      cache-misses              #   20.282 % of all cache refs
+        7669466849      L1-dcache-loads           # 3599.553 M/sec
+           8675377      L1-dcache-load-misses     #    0.11% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       2.131106328 seconds time elapsed
+
+       2.131076000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=512
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+          15066.31 msec task-clock                #    1.000 CPUs utilized
+       59605317258      cycles                    #    3.956 GHz
+      202287501574      instructions              #    3.39  insn per cycle
+          56773377      cache-references          #    3.768 M/sec
+          12837858      cache-misses              #   22.612 % of all cache refs
+       53679510116      L1-dcache-loads           # 3562.884 M/sec
+          67362861      L1-dcache-load-misses     #    0.13% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+      15.067022458 seconds time elapsed
+
+      15.066646000 seconds user
+       0.000000000 seconds sys
+
+
+Running with N=1024
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+         104449.21 msec task-clock                #    1.000 CPUs utilized
+      418713114425      cycles                    #    4.009 GHz
+     1415998359601      instructions              #    3.38  insn per cycle
+         414779313      cache-references          #    3.971 M/sec
+          91365169      cache-misses              #   22.027 % of all cache refs
+      375754203658      L1-dcache-loads           # 3597.482 M/sec
+         489913534      L1-dcache-load-misses     #    0.13% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+     104.451194513 seconds time elapsed
+
+     104.409261000 seconds user
+       0.040003000 seconds sys

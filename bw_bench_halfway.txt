@@ -1,0 +1,1554 @@
+┏[ ajit from  MSI][ 0.007s][ RAM: 5/8GB][ Tuesday at 4:09:06 PM] [ base 3.10.13 ]
+┖[~/bandwidth-1.13.2]
+└─Δ ./bandwidth64
+This is bandwidth version 1.13.2
+Copyright (C) 2005-2023 by Zack T Smith.
+
+This software is covered by the GNU Public License.
+It is provided AS-IS, use at your own risk.
+See the file COPYING for more information.
+
+CPU family: X86
+CPU make: GenuineIntelJV
+CPU model: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+CPU register size: 64
+CPU vector sizes: 128 256
+CPU instruction set: x86_64
+CPU features: adx aes avx avx2 bmi1 bmi2 cmov f16c htt hyper intel64 lzcnt mmx nx popcnt prefetchw rdseed sse sse2 sse3 sse41 sse42 ssse3
+CPU core 0 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 1 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 2 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 3 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 4 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 5 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 6 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 7 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 8 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 9 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 10 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+CPU core 11 caches: L1 instruction 32kB, L1 data 32kB, L2 256kB, L3 12MB
+Memory page size: 4096 bytes
+Memory available: 7855 MB
+OS name: Linux
+OS release: 5.15.90.1
+
+Graph title: GenuineIntelJV Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz x86_64 Linux 5.15.90.1
+
+Notation: B = byte, kB = 1024 B, MB = 1048576 B.
+
+Sequential read (64-bit), size = 256 B, loops = 1346371584, 65706.1 MB/s
+Sequential read (64-bit), size = 512 B, loops = 675282944, 65883.3 MB/s
+Sequential read (64-bit), size = 768 B, loops = 449489150, 65816.5 MB/s
+Sequential read (64-bit), size = 1024 B, loops = 336068608, 65633.3 MB/s
+Sequential read (64-bit), size = 1280 B, loops = 267176910, 65192.4 MB/s
+Sequential read (64-bit), size = 2 kB, loops = 167247872, 65290.8 MB/s
+Sequential read (64-bit), size = 3 kB, loops = 112546728, 65876.2 MB/s
+Sequential read (64-bit), size = 4 kB, loops = 82051072, 64015.4 MB/s
+Sequential read (64-bit), size = 6 kB, loops = 54088839, 63363.2 MB/s
+Sequential read (64-bit), size = 8 kB, loops = 40763392, 63607.0 MB/s
+Sequential read (64-bit), size = 12 kB, loops = 27393630, 64193.6 MB/s
+Sequential read (64-bit), size = 16 kB, loops = 20840448, 65056.1 MB/s
+Sequential read (64-bit), size = 20 kB, loops = 16672104, 65023.7 MB/s
+Sequential read (64-bit), size = 24 kB, loops = 13915265, 65210.4 MB/s
+Sequential read (64-bit), size = 28 kB, loops = 11945912, 65252.4 MB/s
+Sequential read (64-bit), size = 32 kB, loops = 10108928, 63115.5 MB/s
+Sequential read (64-bit), size = 34 kB, loops = 8342220, 55319.6 MB/s
+Sequential read (64-bit), size = 36 kB, loops = 7325189, 51495.8 MB/s
+Sequential read (64-bit), size = 40 kB, loops = 6605928, 51585.8 MB/s
+Sequential read (64-bit), size = 48 kB, loops = 5515610, 51623.2 MB/s
+Sequential read (64-bit), size = 64 kB, loops = 4128768, 51559.1 MB/s
+Sequential read (64-bit), size = 72 kB, loops = 3655062, 51397.1 MB/s
+Sequential read (64-bit), size = 80 kB, loops = 3315818, 51747.8 MB/s
+Sequential read (64-bit), size = 96 kB, loops = 2757805, 51666.1 MB/s
+Sequential read (64-bit), size = 128 kB, loops = 2060288, 51459.2 MB/s
+Sequential read (64-bit), size = 192 kB, loops = 1367730, 51260.1 MB/s
+Sequential read (64-bit), size = 256 kB, loops = 1036288, 51802.7 MB/s
+Sequential read (64-bit), size = 320 kB, loops = 692874, 43239.7 MB/s
+Sequential read (64-bit), size = 384 kB, loops = 556920, 41747.6 MB/s
+Sequential read (64-bit), size = 480 kB, loops = 436800, 40922.0 MB/s
+Sequential read (64-bit), size = 512 kB, loops = 408576, 40771.4 MB/s
+Sequential read (64-bit), size = 768 kB, loops = 274164, 41109.3 MB/s
+Sequential read (64-bit), size = 1 MB, loops = 205824, 41163.2 MB/s
+Sequential read (64-bit), size = 1.25 MB, loops = 163191, 40747.2 MB/s
+Sequential read (64-bit), size = 1.5 MB, loops = 137082, 41096.3 MB/s
+Sequential read (64-bit), size = 1.75 MB, loops = 117092, 40901.7 MB/s
+Sequential read (64-bit), size = 2 MB, loops = 102656, 40972.9 MB/s
+Sequential read (64-bit), size = 2.25 MB, loops = 90346, 40575.0 MB/s
+Sequential read (64-bit), size = 2.5 MB, loops = 80580, 40287.6 MB/s
+Sequential read (64-bit), size = 2.75 MB, loops = 72168, 39620.4 MB/s
+Sequential read (64-bit), size = 3 MB, loops = 67660, 40582.3 MB/s
+Sequential read (64-bit), size = 3.25 MB, loops = 62643, 40633.1 MB/s
+Sequential read (64-bit), size = 3.5 MB, loops = 56940, 39764.7 MB/s
+Sequential read (64-bit), size = 4 MB, loops = 48768, 38946.7 MB/s
+Sequential read (64-bit), size = 5 MB, loops = 35088, 35061.6 MB/s
+Sequential read (64-bit), size = 6 MB, loops = 26435, 31674.9 MB/s
+Sequential read (64-bit), size = 7 MB, loops = 20075, 28035.5 MB/s
+Sequential read (64-bit), size = 8 MB, loops = 16448, 26281.7 MB/s
+Sequential read (64-bit), size = 9 MB, loops = 13608, 24425.5 MB/s
+Sequential read (64-bit), size = 10 MB, loops = 11475, 22859.5 MB/s
+Sequential read (64-bit), size = 11 MB, loops = 10028, 22015.5 MB/s
+Sequential read (64-bit), size = 12 MB, loops = 8652, 20704.1 MB/s
+Sequential read (64-bit), size = 13 MB, loops = 7761, 20119.7 MB/s
+Sequential read (64-bit), size = 14 MB, loops = 7164, 19959.0 MB/s
+Sequential read (64-bit), size = 15 MB, loops = 6664, 19963.6 MB/s
+Sequential read (64-bit), size = 16 MB, loops = 6208, 19792.6 MB/s
+Sequential read (64-bit), size = 20 MB, loops = 4850, 19344.7 MB/s
+Sequential read (64-bit), size = 21 MB, loops = 4584, 19186.8 MB/s
+Sequential read (64-bit), size = 32 MB, loops = 2944, 18802.9 MB/s
+Sequential read (64-bit), size = 48 MB, loops = 1940, 18537.3 MB/s
+Sequential read (64-bit), size = 64 MB, loops = 1440, 18386.1 MB/s
+Sequential read (64-bit), size = 72 MB, loops = 1274, 18319.0 MB/s
+Sequential read (64-bit), size = 96 MB, loops = 950, 18232.3 MB/s
+Sequential read (64-bit), size = 128 MB, loops = 716, 18329.3 MB/s
+
+Sequential read (128-bit), size = 256 B, loops = 2610954240, 127485.3 MB/s
+Sequential read (128-bit), size = 512 B, loops = 1332740096, 130118.5 MB/s
+Sequential read (128-bit), size = 768 B, loops = 891987800, 130577.3 MB/s
+Sequential read (128-bit), size = 1024 B, loops = 668991488, 130598.9 MB/s
+Sequential read (128-bit), size = 1280 B, loops = 535192680, 130613.9 MB/s
+Sequential read (128-bit), size = 2 kB, loops = 332398592, 129766.2 MB/s
+Sequential read (128-bit), size = 3 kB, loops = 222122502, 130142.7 MB/s
+Sequential read (128-bit), size = 4 kB, loops = 167772160, 131054.2 MB/s
+Sequential read (128-bit), size = 6 kB, loops = 105119343, 123149.1 MB/s
+Sequential read (128-bit), size = 8 kB, loops = 79953920, 124889.9 MB/s
+Sequential read (128-bit), size = 12 kB, loops = 54306670, 127224.6 MB/s
+Sequential read (128-bit), size = 16 kB, loops = 40992768, 128096.1 MB/s
+Sequential read (128-bit), size = 20 kB, loops = 32610216, 127383.0 MB/s
+Sequential read (128-bit), size = 24 kB, loops = 27524700, 129013.6 MB/s
+Sequential read (128-bit), size = 28 kB, loops = 23592240, 128936.4 MB/s
+Sequential read (128-bit), size = 32 kB, loops = 20021248, 125078.7 MB/s
+Sequential read (128-bit), size = 34 kB, loops = 13137840, 87158.5 MB/s
+Sequential read (128-bit), size = 36 kB, loops = 10150411, 71298.6 MB/s
+Sequential read (128-bit), size = 40 kB, loops = 9109365, 71141.6 MB/s
+Sequential read (128-bit), size = 48 kB, loops = 7667244, 71823.0 MB/s
+Sequential read (128-bit), size = 64 kB, loops = 5791744, 72328.3 MB/s
+Sequential read (128-bit), size = 72 kB, loops = 5111262, 71809.5 MB/s
+Sequential read (128-bit), size = 80 kB, loops = 4626418, 72216.1 MB/s
+Sequential read (128-bit), size = 96 kB, loops = 3844544, 72002.6 MB/s
+Sequential read (128-bit), size = 128 kB, loops = 2883584, 72064.9 MB/s
+Sequential read (128-bit), size = 192 kB, loops = 1900080, 71211.5 MB/s
+Sequential read (128-bit), size = 256 kB, loops = 1302528, 65046.6 MB/s
+Sequential read (128-bit), size = 320 kB, loops = 956592, 59747.8 MB/s
+Sequential read (128-bit), size = 384 kB, loops = 730275, 54714.6 MB/s
+Sequential read (128-bit), size = 480 kB, loops = 577668, 54063.6 MB/s
+Sequential read (128-bit), size = 512 kB, loops = 535552, 53523.5 MB/s
+Sequential read (128-bit), size = 768 kB, loops = 351230, 52602.2 MB/s
+Sequential read (128-bit), size = 1 MB, loops = 265216, 52972.4 MB/s
+Sequential read (128-bit), size = 1.25 MB, loops = 213089, 53226.5 MB/s
+Sequential read (128-bit), size = 1.5 MB, loops = 178002, 53319.1 MB/s
+Sequential read (128-bit), size = 1.75 MB, loops = 151548, 52973.4 MB/s
+Sequential read (128-bit), size = 2 MB, loops = 132608, 53016.3 MB/s
+Sequential read (128-bit), size = 2.25 MB, loops = 116224, 52228.3 MB/s
+Sequential read (128-bit), size = 2.5 MB, loops = 105060, 52510.9 MB/s
+Sequential read (128-bit), size = 2.75 MB, loops = 96534, 52999.6 MB/s
+Sequential read (128-bit), size = 3 MB, loops = 66980, 40172.6 MB/s
+Sequential read (128-bit), size = 3.25 MB, loops = 63271, 41091.5 MB/s
+Sequential read (128-bit), size = 3.5 MB, loops = 56502, 39498.0 MB/s
+Sequential read (128-bit), size = 4 MB, loops = 48128, 38494.8 MB/s
+Sequential read (128-bit), size = 5 MB, loops = 28356, 28333.5 MB/s
+Sequential read (128-bit), size = 6 MB, loops = 21505, 25728.4 MB/s
+Sequential read (128-bit), size = 7 MB, loops = 17593, 24626.4 MB/s
+Sequential read (128-bit), size = 8 MB, loops = 13696, 21896.8 MB/s
+Sequential read (128-bit), size = 9 MB, loops = 11928, 21424.3 MB/s
+Sequential read (128-bit), size = 10 MB, loops = 11628, 23254.8 MB/s
+Sequential read (128-bit), size = 11 MB, loops = 9752, 21434.5 MB/s
+Sequential read (128-bit), size = 12 MB, loops = 8316, 19940.5 MB/s
+Sequential read (128-bit), size = 13 MB, loops = 7605, 19721.4 MB/s
+Sequential read (128-bit), size = 14 MB, loops = 7308, 20456.3 MB/s
+Sequential read (128-bit), size = 15 MB, loops = 6630, 19840.1 MB/s
+Sequential read (128-bit), size = 16 MB, loops = 5888, 18831.6 MB/s
+Sequential read (128-bit), size = 20 MB, loops = 4550, 18135.9 MB/s
+Sequential read (128-bit), size = 21 MB, loops = 4512, 18928.7 MB/s
+Sequential read (128-bit), size = 32 MB, loops = 3040, 19436.5 MB/s
+Sequential read (128-bit), size = 48 MB, loops = 1870, 17923.7 MB/s
+Sequential read (128-bit), size = 64 MB, loops = 1440, 18333.4 MB/s
+Sequential read (128-bit), size = 72 MB, loops = 1281, 18355.9 MB/s
+Sequential read (128-bit), size = 96 MB, loops = 965, 18451.7 MB/s
+Sequential read (128-bit), size = 128 MB, loops = 728, 18550.8 MB/s
+
+Sequential read (256-bit), size = 256 B, loops = 830472192, 250198.9 MB/s
+Sequential read (256-bit), size = 512 B, loops = 2598371328, 253724.1 MB/s
+Sequential read (256-bit), size = 768 B, loops = 1709876300, 250453.2 MB/s
+Sequential read (256-bit), size = 1024 B, loops = 1296564224, 253220.2 MB/s
+Sequential read (256-bit), size = 1280 B, loops = 1033894950, 252411.9 MB/s
+Sequential read (256-bit), size = 2 kB, loops = 646709248, 252571.6 MB/s
+Sequential read (256-bit), size = 3 kB, loops = 431487378, 252724.2 MB/s
+Sequential read (256-bit), size = 4 kB, loops = 324272128, 253294.8 MB/s
+Sequential read (256-bit), size = 6 kB, loops = 202723920, 237467.7 MB/s
+Sequential read (256-bit), size = 8 kB, loops = 147980288, 231150.9 MB/s
+Sequential read (256-bit), size = 12 kB, loops = 101360800, 237493.6 MB/s
+Sequential read (256-bit), size = 16 kB, loops = 77103104, 240926.8 MB/s
+Sequential read (256-bit), size = 20 kB, loops = 62363106, 243542.3 MB/s
+Sequential read (256-bit), size = 24 kB, loops = 51860030, 243047.1 MB/s
+Sequential read (256-bit), size = 28 kB, loops = 44937600, 245703.9 MB/s
+Sequential read (256-bit), size = 32 kB, loops = 35717120, 223151.8 MB/s
+Sequential read (256-bit), size = 34 kB, loops = 21541740, 142975.9 MB/s
+Sequential read (256-bit), size = 36 kB, loops = 16310560, 114597.8 MB/s
+Sequential read (256-bit), size = 40 kB, loops = 14378379, 112296.0 MB/s
+Sequential read (256-bit), size = 48 kB, loops = 11621008, 108938.5 MB/s
+Sequential read (256-bit), size = 64 kB, loops = 8724480, 109029.4 MB/s
+Sequential read (256-bit), size = 72 kB, loops = 7688736, 108096.0 MB/s
+Sequential read (256-bit), size = 80 kB, loops = 7280383, 113707.8 MB/s
+Sequential read (256-bit), size = 96 kB, loops = 6094476, 114237.0 MB/s
+Sequential read (256-bit), size = 128 kB, loops = 4583424, 114558.3 MB/s
+Sequential read (256-bit), size = 192 kB, loops = 3054870, 114487.7 MB/s
+Sequential read (256-bit), size = 256 kB, loops = 1970176, 98497.0 MB/s
+Sequential read (256-bit), size = 320 kB, loops = 1303848, 81406.5 MB/s
+Sequential read (256-bit), size = 384 kB, loops = 951405, 71261.1 MB/s
+Sequential read (256-bit), size = 480 kB, loops = 705432, 66066.1 MB/s
+Sequential read (256-bit), size = 512 kB, loops = 656384, 65556.0 MB/s
+Sequential read (256-bit), size = 768 kB, loops = 431706, 64695.2 MB/s
+Sequential read (256-bit), size = 1 MB, loops = 325120, 64931.7 MB/s
+Sequential read (256-bit), size = 1.25 MB, loops = 262169, 65476.1 MB/s
+Sequential read (256-bit), size = 1.5 MB, loops = 215171, 64550.4 MB/s
+Sequential read (256-bit), size = 1.75 MB, loops = 184252, 64402.5 MB/s
+Sequential read (256-bit), size = 2 MB, loops = 162304, 64902.6 MB/s
+Sequential read (256-bit), size = 2.25 MB, loops = 143918, 64730.2 MB/s
+Sequential read (256-bit), size = 2.5 MB, loops = 129132, 64533.9 MB/s
+Sequential read (256-bit), size = 2.75 MB, loops = 118482, 65094.1 MB/s
+Sequential read (256-bit), size = 3 MB, loops = 108460, 65006.4 MB/s
+Sequential read (256-bit), size = 3.25 MB, loops = 98910, 64237.2 MB/s
+Sequential read (256-bit), size = 3.5 MB, loops = 93586, 65424.1 MB/s
+Sequential read (256-bit), size = 4 MB, loops = 81152, 64830.3 MB/s
+Sequential read (256-bit), size = 5 MB, loops = 64260, 64180.1 MB/s
+Sequential read (256-bit), size = 6 MB, loops = 50490, 60566.2 MB/s
+Sequential read (256-bit), size = 7 MB, loops = 38617, 53967.0 MB/s
+Sequential read (256-bit), size = 8 MB, loops = 31424, 50277.1 MB/s
+Sequential read (256-bit), size = 9 MB, loops = 25648, 46127.6 MB/s
+Sequential read (256-bit), size = 10 MB, loops = 20400, 40706.9 MB/s
+Sequential read (256-bit), size = 11 MB, loops = 16882, 37093.1 MB/s
+Sequential read (256-bit), size = 12 MB, loops = 14028, 33666.2 MB/s
+Sequential read (256-bit), size = 13 MB, loops = 12441, 32311.3 MB/s
+Sequential read (256-bit), size = 14 MB, loops = 11196, 31302.4 MB/s
+Sequential read (256-bit), size = 15 MB, loops = 10098, 30254.9 MB/s
+Sequential read (256-bit), size = 16 MB, loops = 9088, 29073.4 MB/s
+Sequential read (256-bit), size = 20 MB, loops = 6350, 25352.9 MB/s
+Sequential read (256-bit), size = 21 MB, loops = 5928, 24879.9 MB/s
+Sequential read (256-bit), size = 32 MB, loops = 3744, 23914.8 MB/s
+Sequential read (256-bit), size = 48 MB, loops = 2400, 23014.9 MB/s
+Sequential read (256-bit), size = 64 MB, loops = 1744, 22223.6 MB/s
+Sequential read (256-bit), size = 72 MB, loops = 1519, 21797.9 MB/s
+Sequential read (256-bit), size = 96 MB, loops = 1160, 22254.8 MB/s
+Sequential read (256-bit), size = 128 MB, loops = 864, 22039.7 MB/s
+
+Sequential read nontemporal (128-bit), size = 256 B, loops = 2145386496, 104708.0 MB/s
+Sequential read nontemporal (128-bit), size = 512 B, loops = 1072693248, 104711.9 MB/s
+Sequential read nontemporal (128-bit), size = 768 B, loops = 714429100, 104644.3 MB/s
+Sequential read nontemporal (128-bit), size = 1024 B, loops = 537395200, 104903.6 MB/s
+Sequential read nontemporal (128-bit), size = 1280 B, loops = 428657460, 104568.2 MB/s
+Sequential read nontemporal (128-bit), size = 2 kB, loops = 269221888, 105065.2 MB/s
+Sequential read nontemporal (128-bit), size = 3 kB, loops = 179655336, 105246.9 MB/s
+Sequential read nontemporal (128-bit), size = 4 kB, loops = 134742016, 105250.7 MB/s
+Sequential read nontemporal (128-bit), size = 6 kB, loops = 84322665, 98727.0 MB/s
+Sequential read nontemporal (128-bit), size = 8 kB, loops = 64356352, 100481.3 MB/s
+Sequential read nontemporal (128-bit), size = 12 kB, loops = 43558930, 102044.3 MB/s
+Sequential read nontemporal (128-bit), size = 16 kB, loops = 32997376, 103039.7 MB/s
+Sequential read nontemporal (128-bit), size = 20 kB, loops = 26659638, 104063.4 MB/s
+Sequential read nontemporal (128-bit), size = 24 kB, loops = 22150830, 103731.6 MB/s
+Sequential read nontemporal (128-bit), size = 28 kB, loops = 19061032, 104231.0 MB/s
+Sequential read nontemporal (128-bit), size = 32 kB, loops = 15794176, 98622.8 MB/s
+Sequential read nontemporal (128-bit), size = 34 kB, loops = 11611260, 77040.6 MB/s
+Sequential read nontemporal (128-bit), size = 36 kB, loops = 9553328, 67135.9 MB/s
+Sequential read nontemporal (128-bit), size = 40 kB, loops = 8493336, 66322.6 MB/s
+Sequential read nontemporal (128-bit), size = 48 kB, loops = 7099300, 66533.5 MB/s
+Sequential read nontemporal (128-bit), size = 64 kB, loops = 5349376, 66850.6 MB/s
+Sequential read nontemporal (128-bit), size = 72 kB, loops = 4725369, 66359.3 MB/s
+Sequential read nontemporal (128-bit), size = 80 kB, loops = 4246344, 66314.4 MB/s
+Sequential read nontemporal (128-bit), size = 96 kB, loops = 3560572, 66705.7 MB/s
+Sequential read nontemporal (128-bit), size = 128 kB, loops = 2678784, 66949.8 MB/s
+Sequential read nontemporal (128-bit), size = 192 kB, loops = 1785420, 66893.1 MB/s
+Sequential read nontemporal (128-bit), size = 256 kB, loops = 1257472, 62776.8 MB/s
+Sequential read nontemporal (128-bit), size = 320 kB, loops = 894348, 55833.1 MB/s
+Sequential read nontemporal (128-bit), size = 384 kB, loops = 700245, 52455.5 MB/s
+Sequential read nontemporal (128-bit), size = 480 kB, loops = 537264, 50309.8 MB/s
+Sequential read nontemporal (128-bit), size = 512 kB, loops = 499712, 49936.0 MB/s
+Sequential read nontemporal (128-bit), size = 768 kB, loops = 330770, 49532.0 MB/s
+Sequential read nontemporal (128-bit), size = 1 MB, loops = 247808, 49550.7 MB/s
+Sequential read nontemporal (128-bit), size = 1.25 MB, loops = 195502, 48869.7 MB/s
+Sequential read nontemporal (128-bit), size = 1.5 MB, loops = 165044, 49488.7 MB/s
+Sequential read nontemporal (128-bit), size = 1.75 MB, loops = 140452, 49087.3 MB/s
+Sequential read nontemporal (128-bit), size = 2 MB, loops = 122112, 48831.1 MB/s
+Sequential read nontemporal (128-bit), size = 2.25 MB, loops = 107825, 48504.6 MB/s
+Sequential read nontemporal (128-bit), size = 2.5 MB, loops = 97716, 48764.8 MB/s
+Sequential read nontemporal (128-bit), size = 2.75 MB, loops = 86862, 47662.4 MB/s
+Sequential read nontemporal (128-bit), size = 3 MB, loops = 79900, 47939.4 MB/s
+Sequential read nontemporal (128-bit), size = 3.25 MB, loops = 71592, 46471.0 MB/s
+Sequential read nontemporal (128-bit), size = 3.5 MB, loops = 67306, 47032.6 MB/s
+Sequential read nontemporal (128-bit), size = 4 MB, loops = 55808, 44630.9 MB/s
+Sequential read nontemporal (128-bit), size = 5 MB, loops = 43044, 43006.0 MB/s
+Sequential read nontemporal (128-bit), size = 6 MB, loops = 32470, 38886.0 MB/s
+Sequential read nontemporal (128-bit), size = 7 MB, loops = 23944, 33423.5 MB/s
+Sequential read nontemporal (128-bit), size = 8 MB, loops = 19264, 30746.7 MB/s
+Sequential read nontemporal (128-bit), size = 9 MB, loops = 15904, 28554.5 MB/s
+Sequential read nontemporal (128-bit), size = 10 MB, loops = 13260, 26430.4 MB/s
+Sequential read nontemporal (128-bit), size = 11 MB, loops = 11500, 25246.0 MB/s
+Sequential read nontemporal (128-bit), size = 12 MB, loops = 10038, 24086.4 MB/s
+Sequential read nontemporal (128-bit), size = 13 MB, loops = 9126, 23636.0 MB/s
+Sequential read nontemporal (128-bit), size = 14 MB, loops = 8208, 22979.8 MB/s
+Sequential read nontemporal (128-bit), size = 15 MB, loops = 7616, 22749.0 MB/s
+Sequential read nontemporal (128-bit), size = 16 MB, loops = 7008, 22395.8 MB/s
+Sequential read nontemporal (128-bit), size = 20 MB, loops = 5400, 21569.6 MB/s
+Sequential read nontemporal (128-bit), size = 21 MB, loops = 5064, 21238.5 MB/s
+Sequential read nontemporal (128-bit), size = 32 MB, loops = 3184, 20316.3 MB/s
+Sequential read nontemporal (128-bit), size = 48 MB, loops = 2150, 20625.6 MB/s
+Sequential read nontemporal (128-bit), size = 64 MB, loops = 1608, 20481.1 MB/s
+Sequential read nontemporal (128-bit), size = 72 MB, loops = 1442, 20692.4 MB/s
+Sequential read nontemporal (128-bit), size = 96 MB, loops = 1065, 20407.4 MB/s
+Sequential read nontemporal (128-bit), size = 128 MB, loops = 800, 20426.3 MB/s
+
+Sequential read nontemporal (256-bit), size = 256 B, loops = 0, 209686.3 MB/s
+Sequential read nontemporal (256-bit), size = 512 B, loops = 2155872256, 210511.1 MB/s
+Sequential read nontemporal (256-bit), size = 768 B, loops = 1537210950, 225119.5 MB/s
+Sequential read nontemporal (256-bit), size = 1024 B, loops = 1162346496, 226964.6 MB/s
+Sequential read nontemporal (256-bit), size = 1280 B, loops = 934490040, 228139.6 MB/s
+Sequential read nontemporal (256-bit), size = 2 kB, loops = 589561856, 230229.2 MB/s
+Sequential read nontemporal (256-bit), size = 3 kB, loops = 396185454, 232092.8 MB/s
+Sequential read nontemporal (256-bit), size = 4 kB, loops = 296353792, 231486.8 MB/s
+Sequential read nontemporal (256-bit), size = 6 kB, loops = 168121044, 196918.9 MB/s
+Sequential read nontemporal (256-bit), size = 8 kB, loops = 129499136, 202271.6 MB/s
+Sequential read nontemporal (256-bit), size = 12 kB, loops = 90438300, 211902.6 MB/s
+Sequential read nontemporal (256-bit), size = 16 kB, loops = 69566464, 217373.0 MB/s
+Sequential read nontemporal (256-bit), size = 20 kB, loops = 56569812, 220968.2 MB/s
+Sequential read nontemporal (256-bit), size = 24 kB, loops = 47491030, 222586.5 MB/s
+Sequential read nontemporal (256-bit), size = 28 kB, loops = 41136628, 224954.1 MB/s
+Sequential read nontemporal (256-bit), size = 32 kB, loops = 36044800, 225215.3 MB/s
+Sequential read nontemporal (256-bit), size = 34 kB, loops = 23777640, 157848.8 MB/s
+Sequential read nontemporal (256-bit), size = 36 kB, loops = 16747450, 117687.5 MB/s
+Sequential read nontemporal (256-bit), size = 40 kB, loops = 14627412, 114225.6 MB/s
+Sequential read nontemporal (256-bit), size = 48 kB, loops = 12221718, 114556.3 MB/s
+Sequential read nontemporal (256-bit), size = 64 kB, loops = 9125888, 114032.2 MB/s
+Sequential read nontemporal (256-bit), size = 72 kB, loops = 8118315, 114083.9 MB/s
+Sequential read nontemporal (256-bit), size = 80 kB, loops = 6651295, 103825.3 MB/s
+Sequential read nontemporal (256-bit), size = 96 kB, loops = 5815965, 109035.5 MB/s
+Sequential read nontemporal (256-bit), size = 128 kB, loops = 4407296, 110082.5 MB/s
+Sequential read nontemporal (256-bit), size = 192 kB, loops = 2746380, 102931.3 MB/s
+Sequential read nontemporal (256-bit), size = 256 kB, loops = 1847296, 92325.2 MB/s
+Sequential read nontemporal (256-bit), size = 320 kB, loops = 1318590, 82311.8 MB/s
+Sequential read nontemporal (256-bit), size = 384 kB, loops = 944580, 70745.9 MB/s
+Sequential read nontemporal (256-bit), size = 480 kB, loops = 694512, 65032.6 MB/s
+Sequential read nontemporal (256-bit), size = 512 kB, loops = 652288, 65150.2 MB/s
+Sequential read nontemporal (256-bit), size = 768 kB, loops = 436480, 65415.9 MB/s
+Sequential read nontemporal (256-bit), size = 1 MB, loops = 325632, 65098.4 MB/s
+Sequential read nontemporal (256-bit), size = 1.25 MB, loops = 254398, 63564.5 MB/s
+Sequential read nontemporal (256-bit), size = 1.5 MB, loops = 209374, 62768.3 MB/s
+Sequential read nontemporal (256-bit), size = 1.75 MB, loops = 178120, 62331.9 MB/s
+Sequential read nontemporal (256-bit), size = 2 MB, loops = 154368, 61663.1 MB/s
+Sequential read nontemporal (256-bit), size = 2.25 MB, loops = 143464, 64494.7 MB/s
+Sequential read nontemporal (256-bit), size = 2.5 MB, loops = 126888, 63418.4 MB/s
+Sequential read nontemporal (256-bit), size = 2.75 MB, loops = 117924, 64781.7 MB/s
+Sequential read nontemporal (256-bit), size = 3 MB, loops = 107780, 64576.0 MB/s
+Sequential read nontemporal (256-bit), size = 3.25 MB, loops = 99381, 64584.5 MB/s
+Sequential read nontemporal (256-bit), size = 3.5 MB, loops = 91980, 64357.1 MB/s
+Sequential read nontemporal (256-bit), size = 4 MB, loops = 80640, 64479.6 MB/s
+Sequential read nontemporal (256-bit), size = 5 MB, loops = 62628, 62592.7 MB/s
+Sequential read nontemporal (256-bit), size = 6 MB, loops = 51000, 61186.6 MB/s
+Sequential read nontemporal (256-bit), size = 7 MB, loops = 39420, 55126.2 MB/s
+Sequential read nontemporal (256-bit), size = 8 MB, loops = 31040, 49574.9 MB/s
+Sequential read nontemporal (256-bit), size = 9 MB, loops = 25816, 46392.6 MB/s
+Sequential read nontemporal (256-bit), size = 10 MB, loops = 20502, 40964.1 MB/s
+Sequential read nontemporal (256-bit), size = 11 MB, loops = 16836, 36953.5 MB/s
+Sequential read nontemporal (256-bit), size = 12 MB, loops = 14406, 34504.3 MB/s
+Sequential read nontemporal (256-bit), size = 13 MB, loops = 12636, 32787.2 MB/s
+Sequential read nontemporal (256-bit), size = 14 MB, loops = 11232, 31369.0 MB/s
+Sequential read nontemporal (256-bit), size = 15 MB, loops = 9996, 29947.9 MB/s
+Sequential read nontemporal (256-bit), size = 16 MB, loops = 8960, 28625.1 MB/s
+Sequential read nontemporal (256-bit), size = 20 MB, loops = 6325, 25211.3 MB/s
+Sequential read nontemporal (256-bit), size = 21 MB, loops = 5928, 24849.7 MB/s
+Sequential read nontemporal (256-bit), size = 32 MB, loops = 3792, 24172.0 MB/s
+Sequential read nontemporal (256-bit), size = 48 MB, loops = 2400, 23000.6 MB/s
+Sequential read nontemporal (256-bit), size = 64 MB, loops = 1760, 22460.1 MB/s
+Sequential read nontemporal (256-bit), size = 72 MB, loops = 1540, 22146.9 MB/s
+Sequential read nontemporal (256-bit), size = 96 MB, loops = 1120, 21462.0 MB/s
+Sequential read nontemporal (256-bit), size = 128 MB, loops = 820, 20890.1 MB/s
+
+Sequential write (64-bit), size = 256 B, loops = 678428672, 33119.7 MB/s
+Sequential write (64-bit), size = 512 B, loops = 342884352, 33478.6 MB/s
+Sequential write (64-bit), size = 768 B, loops = 228938220, 33525.4 MB/s
+Sequential write (64-bit), size = 1024 B, loops = 171442176, 33480.6 MB/s
+Sequential write (64-bit), size = 1280 B, loops = 136889508, 33409.9 MB/s
+Sequential write (64-bit), size = 2 kB, loops = 86048768, 33606.7 MB/s
+Sequential write (64-bit), size = 3 kB, loops = 57255745, 33536.4 MB/s
+Sequential write (64-bit), size = 4 kB, loops = 42811392, 33440.6 MB/s
+Sequential write (64-bit), size = 6 kB, loops = 28429966, 33314.4 MB/s
+Sequential write (64-bit), size = 8 kB, loops = 21430272, 33475.8 MB/s
+Sequential write (64-bit), size = 12 kB, loops = 14324203, 33565.9 MB/s
+Sequential write (64-bit), size = 16 kB, loops = 10719232, 33492.2 MB/s
+Sequential write (64-bit), size = 20 kB, loops = 8530704, 33323.0 MB/s
+Sequential write (64-bit), size = 24 kB, loops = 7122570, 33381.6 MB/s
+Sequential write (64-bit), size = 28 kB, loops = 5990400, 32752.4 MB/s
+Sequential write (64-bit), size = 32 kB, loops = 5296128, 33093.9 MB/s
+Sequential write (64-bit), size = 34 kB, loops = 4642143, 30822.3 MB/s
+Sequential write (64-bit), size = 36 kB, loops = 4209660, 29595.2 MB/s
+Sequential write (64-bit), size = 40 kB, loops = 3800160, 29676.1 MB/s
+Sequential write (64-bit), size = 48 kB, loops = 3161340, 29626.4 MB/s
+Sequential write (64-bit), size = 64 kB, loops = 2367488, 29587.7 MB/s
+Sequential write (64-bit), size = 72 kB, loops = 2097550, 29496.0 MB/s
+Sequential write (64-bit), size = 80 kB, loops = 1898442, 29662.2 MB/s
+Sequential write (64-bit), size = 96 kB, loops = 1587014, 29746.4 MB/s
+Sequential write (64-bit), size = 128 kB, loops = 1188864, 29708.8 MB/s
+Sequential write (64-bit), size = 192 kB, loops = 780208, 29248.5 MB/s
+Sequential write (64-bit), size = 256 kB, loops = 575488, 28768.1 MB/s
+Sequential write (64-bit), size = 320 kB, loops = 449004, 28060.3 MB/s
+Sequential write (64-bit), size = 384 kB, loops = 360060, 27001.3 MB/s
+Sequential write (64-bit), size = 480 kB, loops = 284512, 26670.2 MB/s
+Sequential write (64-bit), size = 512 kB, loops = 268160, 26811.8 MB/s
+Sequential write (64-bit), size = 768 kB, loops = 178245, 26725.3 MB/s
+Sequential write (64-bit), size = 1 MB, loops = 133952, 26783.1 MB/s
+Sequential write (64-bit), size = 1.25 MB, loops = 106641, 26655.3 MB/s
+Sequential write (64-bit), size = 1.5 MB, loops = 88956, 26685.9 MB/s
+Sequential write (64-bit), size = 1.75 MB, loops = 76392, 26722.6 MB/s
+Sequential write (64-bit), size = 2 MB, loops = 67104, 26838.0 MB/s
+Sequential write (64-bit), size = 2.25 MB, loops = 59108, 26587.9 MB/s
+Sequential write (64-bit), size = 2.5 MB, loops = 53475, 26725.5 MB/s
+Sequential write (64-bit), size = 2.75 MB, loops = 48300, 26557.2 MB/s
+Sequential write (64-bit), size = 3 MB, loops = 44289, 26572.0 MB/s
+Sequential write (64-bit), size = 3.25 MB, loops = 40774, 26493.9 MB/s
+Sequential write (64-bit), size = 3.5 MB, loops = 38034, 26621.2 MB/s
+Sequential write (64-bit), size = 4 MB, loops = 33152, 26510.1 MB/s
+Sequential write (64-bit), size = 5 MB, loops = 26568, 26564.8 MB/s
+Sequential write (64-bit), size = 6 MB, loops = 21870, 26240.2 MB/s
+Sequential write (64-bit), size = 7 MB, loops = 18162, 25426.4 MB/s
+Sequential write (64-bit), size = 8 MB, loops = 15616, 24977.3 MB/s
+Sequential write (64-bit), size = 9 MB, loops = 13643, 24551.7 MB/s
+Sequential write (64-bit), size = 10 MB, loops = 11670, 23332.2 MB/s
+Sequential write (64-bit), size = 11 MB, loops = 10030, 22059.3 MB/s
+Sequential write (64-bit), size = 12 MB, loops = 8770, 21047.8 MB/s
+Sequential write (64-bit), size = 13 MB, loops = 8048, 20918.3 MB/s
+Sequential write (64-bit), size = 14 MB, loops = 7428, 20791.0 MB/s
+Sequential write (64-bit), size = 15 MB, loops = 6724, 20171.8 MB/s
+Sequential write (64-bit), size = 16 MB, loops = 6032, 19289.7 MB/s
+Sequential write (64-bit), size = 20 MB, loops = 4017, 16062.8 MB/s
+Sequential write (64-bit), size = 21 MB, loops = 3294, 13815.2 MB/s
+Sequential write (64-bit), size = 32 MB, loops = 2078, 13289.3 MB/s
+Sequential write (64-bit), size = 48 MB, loops = 1290, 12372.3 MB/s
+Sequential write (64-bit), size = 64 MB, loops = 1001, 12810.0 MB/s
+Sequential write (64-bit), size = 72 MB, loops = 905, 13030.8 MB/s
+Sequential write (64-bit), size = 96 MB, loops = 709, 13601.3 MB/s
+Sequential write (64-bit), size = 128 MB, loops = 533, 13634.0 MB/s
+
+Sequential write (128-bit), size = 256 B, loops = 1311506432, 64027.0 MB/s
+Sequential write (128-bit), size = 512 B, loops = 654835712, 63940.7 MB/s
+Sequential write (128-bit), size = 768 B, loops = 448963578, 65765.5 MB/s
+Sequential write (128-bit), size = 1024 B, loops = 333774848, 65183.8 MB/s
+Sequential write (128-bit), size = 1280 B, loops = 268011936, 65428.3 MB/s
+Sequential write (128-bit), size = 2 kB, loops = 168689664, 65893.7 MB/s
+Sequential write (128-bit), size = 3 kB, loops = 112458060, 65888.8 MB/s
+Sequential write (128-bit), size = 4 kB, loops = 84262912, 65828.5 MB/s
+Sequential write (128-bit), size = 6 kB, loops = 56062626, 65693.5 MB/s
+Sequential write (128-bit), size = 8 kB, loops = 41951232, 65543.1 MB/s
+Sequential write (128-bit), size = 12 kB, loops = 28069540, 65787.2 MB/s
+Sequential write (128-bit), size = 16 kB, loops = 21049344, 65767.5 MB/s
+Sequential write (128-bit), size = 20 kB, loops = 16851744, 65820.0 MB/s
+Sequential write (128-bit), size = 24 kB, loops = 14092260, 66045.2 MB/s
+Sequential write (128-bit), size = 28 kB, loops = 11957400, 65383.6 MB/s
+Sequential write (128-bit), size = 32 kB, loops = 10457088, 65348.1 MB/s
+Sequential write (128-bit), size = 34 kB, loops = 8336202, 55352.8 MB/s
+Sequential write (128-bit), size = 36 kB, loops = 6792240, 47751.7 MB/s
+Sequential write (128-bit), size = 40 kB, loops = 6101550, 47660.1 MB/s
+Sequential write (128-bit), size = 48 kB, loops = 5195190, 48701.8 MB/s
+Sequential write (128-bit), size = 64 kB, loops = 3944448, 49304.8 MB/s
+Sequential write (128-bit), size = 72 kB, loops = 3544450, 49835.9 MB/s
+Sequential write (128-bit), size = 80 kB, loops = 3148236, 49182.3 MB/s
+Sequential write (128-bit), size = 96 kB, loops = 2672076, 50096.9 MB/s
+Sequential write (128-bit), size = 128 kB, loops = 2035712, 50887.5 MB/s
+Sequential write (128-bit), size = 192 kB, loops = 1341153, 50286.6 MB/s
+Sequential write (128-bit), size = 256 kB, loops = 975104, 48748.3 MB/s
+Sequential write (128-bit), size = 320 kB, loops = 736236, 46002.6 MB/s
+Sequential write (128-bit), size = 384 kB, loops = 569840, 42728.2 MB/s
+Sequential write (128-bit), size = 480 kB, loops = 436288, 40892.7 MB/s
+Sequential write (128-bit), size = 512 kB, loops = 406656, 40660.5 MB/s
+Sequential write (128-bit), size = 768 kB, loops = 267835, 40168.2 MB/s
+Sequential write (128-bit), size = 1 MB, loops = 201216, 40238.5 MB/s
+Sequential write (128-bit), size = 1.25 MB, loops = 162027, 40502.9 MB/s
+Sequential write (128-bit), size = 1.5 MB, loops = 134652, 40392.4 MB/s
+Sequential write (128-bit), size = 1.75 MB, loops = 115380, 40375.9 MB/s
+Sequential write (128-bit), size = 2 MB, loops = 101056, 40418.4 MB/s
+Sequential write (128-bit), size = 2.25 MB, loops = 89796, 40405.9 MB/s
+Sequential write (128-bit), size = 2.5 MB, loops = 79950, 39974.8 MB/s
+Sequential write (128-bit), size = 2.75 MB, loops = 73347, 40335.7 MB/s
+Sequential write (128-bit), size = 3 MB, loops = 67158, 40291.8 MB/s
+Sequential write (128-bit), size = 3.25 MB, loops = 62263, 40468.0 MB/s
+Sequential write (128-bit), size = 3.5 MB, loops = 57762, 40432.0 MB/s
+Sequential write (128-bit), size = 4 MB, loops = 49808, 39846.1 MB/s
+Sequential write (128-bit), size = 5 MB, loops = 39432, 39422.7 MB/s
+Sequential write (128-bit), size = 6 MB, loops = 28170, 33795.3 MB/s
+Sequential write (128-bit), size = 7 MB, loops = 26028, 36436.8 MB/s
+Sequential write (128-bit), size = 8 MB, loops = 20440, 32702.9 MB/s
+Sequential write (128-bit), size = 9 MB, loops = 14140, 25443.5 MB/s
+Sequential write (128-bit), size = 10 MB, loops = 11922, 23843.3 MB/s
+Sequential write (128-bit), size = 11 MB, loops = 10370, 22810.7 MB/s
+Sequential write (128-bit), size = 12 MB, loops = 8470, 20318.5 MB/s
+Sequential write (128-bit), size = 13 MB, loops = 7428, 19306.1 MB/s
+Sequential write (128-bit), size = 14 MB, loops = 6944, 19441.1 MB/s
+Sequential write (128-bit), size = 15 MB, loops = 6620, 19853.1 MB/s
+Sequential write (128-bit), size = 16 MB, loops = 6044, 19340.7 MB/s
+Sequential write (128-bit), size = 20 MB, loops = 4314, 17255.7 MB/s
+Sequential write (128-bit), size = 21 MB, loops = 3909, 16417.1 MB/s
+Sequential write (128-bit), size = 32 MB, loops = 2286, 14619.9 MB/s
+Sequential write (128-bit), size = 48 MB, loops = 1435, 13766.0 MB/s
+Sequential write (128-bit), size = 64 MB, loops = 1059, 13550.8 MB/s
+Sequential write (128-bit), size = 72 MB, loops = 892, 12844.5 MB/s
+Sequential write (128-bit), size = 96 MB, loops = 669, 12833.6 MB/s
+Sequential write (128-bit), size = 128 MB, loops = 518, 13249.4 MB/s
+
+Sequential write (256-bit), size = 256 B, loops = 2665480192, 130149.4 MB/s
+Sequential write (256-bit), size = 512 B, loops = 1333526528, 130218.1 MB/s
+Sequential write (256-bit), size = 768 B, loops = 888926913, 130201.8 MB/s
+Sequential write (256-bit), size = 1024 B, loops = 651952128, 127321.2 MB/s
+Sequential write (256-bit), size = 1280 B, loops = 529417944, 129251.4 MB/s
+Sequential write (256-bit), size = 2 kB, loops = 335151104, 130909.4 MB/s
+Sequential write (256-bit), size = 3 kB, loops = 223998630, 131246.6 MB/s
+Sequential write (256-bit), size = 4 kB, loops = 165036032, 128923.2 MB/s
+Sequential write (256-bit), size = 6 kB, loops = 110934754, 129991.7 MB/s
+Sequential write (256-bit), size = 8 kB, loops = 83017728, 129711.8 MB/s
+Sequential write (256-bit), size = 12 kB, loops = 56013477, 131269.5 MB/s
+Sequential write (256-bit), size = 16 kB, loops = 41861120, 130814.0 MB/s
+Sequential write (256-bit), size = 20 kB, loops = 33601932, 131251.1 MB/s
+Sequential write (256-bit), size = 24 kB, loops = 27971580, 131110.9 MB/s
+Sequential write (256-bit), size = 28 kB, loops = 23982660, 131153.9 MB/s
+Sequential write (256-bit), size = 32 kB, loops = 19996672, 124971.1 MB/s
+Sequential write (256-bit), size = 34 kB, loops = 13273176, 88132.1 MB/s
+Sequential write (256-bit), size = 36 kB, loops = 10934560, 76875.7 MB/s
+Sequential write (256-bit), size = 40 kB, loops = 9656010, 75436.4 MB/s
+Sequential write (256-bit), size = 48 kB, loops = 8105370, 75976.2 MB/s
+Sequential write (256-bit), size = 64 kB, loops = 6071296, 75888.4 MB/s
+Sequential write (256-bit), size = 72 kB, loops = 5371730, 75538.1 MB/s
+Sequential write (256-bit), size = 80 kB, loops = 4932018, 77057.5 MB/s
+Sequential write (256-bit), size = 96 kB, loops = 4036076, 75674.7 MB/s
+Sequential write (256-bit), size = 128 kB, loops = 3090944, 77264.7 MB/s
+Sequential write (256-bit), size = 192 kB, loops = 1995532, 74821.8 MB/s
+Sequential write (256-bit), size = 256 kB, loops = 1306112, 65304.0 MB/s
+Sequential write (256-bit), size = 320 kB, loops = 858024, 53617.3 MB/s
+Sequential write (256-bit), size = 384 kB, loops = 600440, 45024.0 MB/s
+Sequential write (256-bit), size = 480 kB, loops = 436424, 40910.4 MB/s
+Sequential write (256-bit), size = 512 kB, loops = 420096, 42001.5 MB/s
+Sequential write (256-bit), size = 768 kB, loops = 280160, 42014.7 MB/s
+Sequential write (256-bit), size = 1 MB, loops = 209920, 41972.9 MB/s
+Sequential write (256-bit), size = 1.25 MB, loops = 167994, 41991.9 MB/s
+Sequential write (256-bit), size = 1.5 MB, loops = 140364, 42106.3 MB/s
+Sequential write (256-bit), size = 1.75 MB, loops = 120996, 42342.4 MB/s
+Sequential write (256-bit), size = 2 MB, loops = 104928, 41960.2 MB/s
+Sequential write (256-bit), size = 2.25 MB, loops = 93912, 42259.6 MB/s
+Sequential write (256-bit), size = 2.5 MB, loops = 83800, 41892.0 MB/s
+Sequential write (256-bit), size = 2.75 MB, loops = 76958, 42315.7 MB/s
+Sequential write (256-bit), size = 3 MB, loops = 70581, 42347.8 MB/s
+Sequential write (256-bit), size = 3.25 MB, loops = 62035, 40322.3 MB/s
+Sequential write (256-bit), size = 3.5 MB, loops = 59778, 41830.4 MB/s
+Sequential write (256-bit), size = 4 MB, loops = 52272, 41817.3 MB/s
+Sequential write (256-bit), size = 5 MB, loops = 41340, 41332.2 MB/s
+Sequential write (256-bit), size = 6 MB, loops = 33090, 39700.2 MB/s
+Sequential write (256-bit), size = 7 MB, loops = 26775, 37483.5 MB/s
+Sequential write (256-bit), size = 8 MB, loops = 22200, 35519.2 MB/s
+Sequential write (256-bit), size = 9 MB, loops = 17976, 32352.0 MB/s
+Sequential write (256-bit), size = 10 MB, loops = 14448, 28891.6 MB/s
+Sequential write (256-bit), size = 11 MB, loops = 11500, 25295.6 MB/s
+Sequential write (256-bit), size = 12 MB, loops = 8345, 20017.0 MB/s
+Sequential write (256-bit), size = 13 MB, loops = 7904, 20546.9 MB/s
+Sequential write (256-bit), size = 14 MB, loops = 6768, 18947.8 MB/s
+Sequential write (256-bit), size = 15 MB, loops = 6064, 18183.2 MB/s
+Sequential write (256-bit), size = 16 MB, loops = 5600, 17916.7 MB/s
+Sequential write (256-bit), size = 20 MB, loops = 4179, 16713.8 MB/s
+Sequential write (256-bit), size = 21 MB, loops = 3852, 16174.2 MB/s
+Sequential write (256-bit), size = 32 MB, loops = 2200, 14074.1 MB/s
+Sequential write (256-bit), size = 48 MB, loops = 1423, 13657.8 MB/s
+Sequential write (256-bit), size = 64 MB, loops = 1044, 13358.0 MB/s
+Sequential write (256-bit), size = 72 MB, loops = 881, 12679.0 MB/s
+Sequential write (256-bit), size = 96 MB, loops = 612, 11740.9 MB/s
+Sequential write (256-bit), size = 128 MB, loops = 507, 12964.6 MB/s
+
+Sequential write nontemporal (64-bit), size = 256 B, loops = 171180032, 8348.9 MB/s
+Sequential write nontemporal (64-bit), size = 512 B, loops = 167116800, 16310.1 MB/s
+Sequential write nontemporal (64-bit), size = 768 B, loops = 162179136, 23749.6 MB/s
+Sequential write nontemporal (64-bit), size = 1024 B, loops = 163512320, 31926.1 MB/s
+Sequential write nontemporal (64-bit), size = 1280 B, loops = 133953540, 32697.9 MB/s
+Sequential write nontemporal (64-bit), size = 2 kB, loops = 83197952, 32495.1 MB/s
+Sequential write nontemporal (64-bit), size = 3 kB, loops = 55464455, 32495.4 MB/s
+Sequential write nontemporal (64-bit), size = 4 kB, loops = 41779200, 32636.3 MB/s
+Sequential write nontemporal (64-bit), size = 6 kB, loops = 27818334, 32598.9 MB/s
+Sequential write nontemporal (64-bit), size = 8 kB, loops = 20791296, 32477.7 MB/s
+Sequential write nontemporal (64-bit), size = 12 kB, loops = 13870940, 32508.7 MB/s
+Sequential write nontemporal (64-bit), size = 16 kB, loops = 10407936, 32518.4 MB/s
+Sequential write nontemporal (64-bit), size = 20 kB, loops = 8334144, 32550.4 MB/s
+Sequential write nontemporal (64-bit), size = 24 kB, loops = 6936930, 32508.7 MB/s
+Sequential write nontemporal (64-bit), size = 28 kB, loops = 5948280, 32524.7 MB/s
+Sequential write nontemporal (64-bit), size = 32 kB, loops = 5212160, 32569.9 MB/s
+Sequential write nontemporal (64-bit), size = 34 kB, loops = 4896507, 32504.8 MB/s
+Sequential write nontemporal (64-bit), size = 36 kB, loops = 4600960, 32338.8 MB/s
+Sequential write nontemporal (64-bit), size = 40 kB, loops = 4153968, 32442.9 MB/s
+Sequential write nontemporal (64-bit), size = 48 kB, loops = 3449355, 32325.6 MB/s
+Sequential write nontemporal (64-bit), size = 64 kB, loops = 2585600, 32306.6 MB/s
+Sequential write nontemporal (64-bit), size = 72 kB, loops = 2292290, 32226.5 MB/s
+Sequential write nontemporal (64-bit), size = 80 kB, loops = 2063880, 32246.5 MB/s
+Sequential write nontemporal (64-bit), size = 96 kB, loops = 1703636, 31931.3 MB/s
+Sequential write nontemporal (64-bit), size = 128 kB, loops = 1269760, 31743.8 MB/s
+Sequential write nontemporal (64-bit), size = 192 kB, loops = 852159, 31944.5 MB/s
+Sequential write nontemporal (64-bit), size = 256 kB, loops = 637952, 31893.1 MB/s
+Sequential write nontemporal (64-bit), size = 320 kB, loops = 503880, 31489.7 MB/s
+Sequential write nontemporal (64-bit), size = 384 kB, loops = 418370, 31374.8 MB/s
+Sequential write nontemporal (64-bit), size = 480 kB, loops = 331976, 31112.9 MB/s
+Sequential write nontemporal (64-bit), size = 512 kB, loops = 313344, 31324.6 MB/s
+Sequential write nontemporal (64-bit), size = 768 kB, loops = 208250, 31237.4 MB/s
+Sequential write nontemporal (64-bit), size = 1 MB, loops = 156800, 31357.7 MB/s
+Sequential write nontemporal (64-bit), size = 1.25 MB, loops = 125562, 31375.5 MB/s
+Sequential write nontemporal (64-bit), size = 1.5 MB, loops = 104664, 31399.2 MB/s
+Sequential write nontemporal (64-bit), size = 1.75 MB, loops = 89172, 31210.1 MB/s
+Sequential write nontemporal (64-bit), size = 2 MB, loops = 77824, 31123.5 MB/s
+Sequential write nontemporal (64-bit), size = 2.25 MB, loops = 69440, 31243.7 MB/s
+Sequential write nontemporal (64-bit), size = 2.5 MB, loops = 62350, 31173.9 MB/s
+Sequential write nontemporal (64-bit), size = 2.75 MB, loops = 57270, 31490.3 MB/s
+Sequential write nontemporal (64-bit), size = 3 MB, loops = 52290, 31368.1 MB/s
+Sequential write nontemporal (64-bit), size = 3.25 MB, loops = 48393, 31448.7 MB/s
+Sequential write nontemporal (64-bit), size = 3.5 MB, loops = 44154, 30898.7 MB/s
+Sequential write nontemporal (64-bit), size = 4 MB, loops = 38992, 31184.2 MB/s
+Sequential write nontemporal (64-bit), size = 5 MB, loops = 31176, 31164.8 MB/s
+Sequential write nontemporal (64-bit), size = 6 MB, loops = 25620, 30732.8 MB/s
+Sequential write nontemporal (64-bit), size = 7 MB, loops = 20772, 29075.7 MB/s
+Sequential write nontemporal (64-bit), size = 8 MB, loops = 17128, 27400.9 MB/s
+Sequential write nontemporal (64-bit), size = 9 MB, loops = 15687, 28236.5 MB/s
+Sequential write nontemporal (64-bit), size = 10 MB, loops = 13470, 26937.6 MB/s
+Sequential write nontemporal (64-bit), size = 11 MB, loops = 12845, 28257.7 MB/s
+Sequential write nontemporal (64-bit), size = 12 MB, loops = 11970, 28715.7 MB/s
+Sequential write nontemporal (64-bit), size = 13 MB, loops = 11016, 28632.9 MB/s
+Sequential write nontemporal (64-bit), size = 14 MB, loops = 10196, 28535.5 MB/s
+Sequential write nontemporal (64-bit), size = 15 MB, loops = 9512, 28533.8 MB/s
+Sequential write nontemporal (64-bit), size = 16 MB, loops = 9128, 29204.5 MB/s
+Sequential write nontemporal (64-bit), size = 20 MB, loops = 6750, 26988.3 MB/s
+Sequential write nontemporal (64-bit), size = 21 MB, loops = 6180, 25950.3 MB/s
+Sequential write nontemporal (64-bit), size = 32 MB, loops = 4518, 28905.8 MB/s
+Sequential write nontemporal (64-bit), size = 48 MB, loops = 3008, 28867.7 MB/s
+Sequential write nontemporal (64-bit), size = 64 MB, loops = 1876, 24008.3 MB/s
+Sequential write nontemporal (64-bit), size = 72 MB, loops = 1978, 28481.3 MB/s
+Sequential write nontemporal (64-bit), size = 96 MB, loops = 1528, 29330.8 MB/s
+Sequential write nontemporal (64-bit), size = 128 MB, loops = 1141, 29206.6 MB/s
+
+Sequential write nontemporal (128-bit), size = 256 B, loops = 171966464, 8395.6 MB/s
+Sequential write nontemporal (128-bit), size = 512 B, loops = 165806080, 16186.5 MB/s
+Sequential write nontemporal (128-bit), size = 768 B, loops = 166460805, 24375.1 MB/s
+Sequential write nontemporal (128-bit), size = 1024 B, loops = 146538496, 28610.9 MB/s
+Sequential write nontemporal (128-bit), size = 1280 B, loops = 155658732, 37992.9 MB/s
+Sequential write nontemporal (128-bit), size = 2 kB, loops = 105021440, 41013.8 MB/s
+Sequential write nontemporal (128-bit), size = 3 kB, loops = 70056915, 41042.2 MB/s
+Sequential write nontemporal (128-bit), size = 4 kB, loops = 52903936, 41328.9 MB/s
+Sequential write nontemporal (128-bit), size = 6 kB, loops = 34983166, 40991.0 MB/s
+Sequential write nontemporal (128-bit), size = 8 kB, loops = 25157632, 39308.7 MB/s
+Sequential write nontemporal (128-bit), size = 12 kB, loops = 16890873, 39577.0 MB/s
+Sequential write nontemporal (128-bit), size = 16 kB, loops = 12845056, 40130.3 MB/s
+Sequential write nontemporal (128-bit), size = 20 kB, loops = 10280088, 40154.8 MB/s
+Sequential write nontemporal (128-bit), size = 24 kB, loops = 8594040, 40275.3 MB/s
+Sequential write nontemporal (128-bit), size = 28 kB, loops = 7305480, 39949.1 MB/s
+Sequential write nontemporal (128-bit), size = 32 kB, loops = 6385664, 39899.8 MB/s
+Sequential write nontemporal (128-bit), size = 34 kB, loops = 5933233, 39390.8 MB/s
+Sequential write nontemporal (128-bit), size = 36 kB, loops = 5432700, 38187.1 MB/s
+Sequential write nontemporal (128-bit), size = 40 kB, loops = 4807530, 37552.0 MB/s
+Sequential write nontemporal (128-bit), size = 48 kB, loops = 3944850, 36978.3 MB/s
+Sequential write nontemporal (128-bit), size = 64 kB, loops = 2907136, 36338.2 MB/s
+Sequential write nontemporal (128-bit), size = 72 kB, loops = 2537080, 35677.6 MB/s
+Sequential write nontemporal (128-bit), size = 80 kB, loops = 2220309, 34688.7 MB/s
+Sequential write nontemporal (128-bit), size = 96 kB, loops = 1781384, 33389.8 MB/s
+Sequential write nontemporal (128-bit), size = 128 kB, loops = 1226752, 30658.8 MB/s
+Sequential write nontemporal (128-bit), size = 192 kB, loops = 770319, 28886.9 MB/s
+Sequential write nontemporal (128-bit), size = 256 kB, loops = 660480, 33017.0 MB/s
+Sequential write nontemporal (128-bit), size = 320 kB, loops = 527544, 32969.2 MB/s
+Sequential write nontemporal (128-bit), size = 384 kB, loops = 436900, 32760.8 MB/s
+Sequential write nontemporal (128-bit), size = 480 kB, loops = 343536, 32200.8 MB/s
+Sequential write nontemporal (128-bit), size = 512 kB, loops = 327296, 32720.1 MB/s
+Sequential write nontemporal (128-bit), size = 768 kB, loops = 218025, 32698.3 MB/s
+Sequential write nontemporal (128-bit), size = 1 MB, loops = 163392, 32673.5 MB/s
+Sequential write nontemporal (128-bit), size = 1.25 MB, loops = 127602, 31898.5 MB/s
+Sequential write nontemporal (128-bit), size = 1.5 MB, loops = 103488, 31037.4 MB/s
+Sequential write nontemporal (128-bit), size = 1.75 MB, loops = 92304, 32295.3 MB/s
+Sequential write nontemporal (128-bit), size = 2 MB, loops = 80864, 32334.9 MB/s
+Sequential write nontemporal (128-bit), size = 2.25 MB, loops = 71680, 32252.6 MB/s
+Sequential write nontemporal (128-bit), size = 2.5 MB, loops = 63025, 31501.5 MB/s
+Sequential write nontemporal (128-bit), size = 2.75 MB, loops = 58788, 32320.7 MB/s
+Sequential write nontemporal (128-bit), size = 3 MB, loops = 53928, 32343.9 MB/s
+Sequential write nontemporal (128-bit), size = 3.25 MB, loops = 49761, 32337.8 MB/s
+Sequential write nontemporal (128-bit), size = 3.5 MB, loops = 46026, 32207.2 MB/s
+Sequential write nontemporal (128-bit), size = 4 MB, loops = 40160, 32118.0 MB/s
+Sequential write nontemporal (128-bit), size = 5 MB, loops = 32148, 32133.6 MB/s
+Sequential write nontemporal (128-bit), size = 6 MB, loops = 26710, 32045.9 MB/s
+Sequential write nontemporal (128-bit), size = 7 MB, loops = 23157, 32414.5 MB/s
+Sequential write nontemporal (128-bit), size = 8 MB, loops = 20248, 32385.3 MB/s
+Sequential write nontemporal (128-bit), size = 9 MB, loops = 17983, 32362.6 MB/s
+Sequential write nontemporal (128-bit), size = 10 MB, loops = 16212, 32415.3 MB/s
+Sequential write nontemporal (128-bit), size = 11 MB, loops = 12515, 27527.1 MB/s
+Sequential write nontemporal (128-bit), size = 12 MB, loops = 13270, 31836.3 MB/s
+Sequential write nontemporal (128-bit), size = 13 MB, loops = 12244, 31831.2 MB/s
+Sequential write nontemporal (128-bit), size = 14 MB, loops = 11388, 31885.9 MB/s
+Sequential write nontemporal (128-bit), size = 15 MB, loops = 10672, 32007.6 MB/s
+Sequential write nontemporal (128-bit), size = 16 MB, loops = 10104, 32324.1 MB/s
+Sequential write nontemporal (128-bit), size = 20 MB, loops = 7911, 31639.0 MB/s
+Sequential write nontemporal (128-bit), size = 21 MB, loops = 7680, 32254.1 MB/s
+Sequential write nontemporal (128-bit), size = 32 MB, loops = 5028, 32176.4 MB/s
+Sequential write nontemporal (128-bit), size = 48 MB, loops = 3350, 32151.7 MB/s
+Sequential write nontemporal (128-bit), size = 64 MB, loops = 2504, 32049.9 MB/s
+Sequential write nontemporal (128-bit), size = 72 MB, loops = 2248, 32359.8 MB/s
+Sequential write nontemporal (128-bit), size = 96 MB, loops = 1679, 32224.2 MB/s
+Sequential write nontemporal (128-bit), size = 128 MB, loops = 1266, 32391.9 MB/s
+
+Sequential write nontemporal (256-bit), size = 256 B, loops = 169607168, 8272.5 MB/s
+Sequential write nontemporal (256-bit), size = 512 B, loops = 166592512, 16256.9 MB/s
+Sequential write nontemporal (256-bit), size = 768 B, loops = 164887947, 24146.2 MB/s
+Sequential write nontemporal (256-bit), size = 1024 B, loops = 164036608, 32034.5 MB/s
+Sequential write nontemporal (256-bit), size = 1280 B, loops = 152303340, 37178.5 MB/s
+Sequential write nontemporal (256-bit), size = 2 kB, loops = 105185280, 41087.7 MB/s
+Sequential write nontemporal (256-bit), size = 3 kB, loops = 71039940, 41617.4 MB/s
+Sequential write nontemporal (256-bit), size = 4 kB, loops = 53264384, 41601.5 MB/s
+Sequential write nontemporal (256-bit), size = 6 kB, loops = 35354514, 41429.0 MB/s
+Sequential write nontemporal (256-bit), size = 8 kB, loops = 25247744, 39437.7 MB/s
+Sequential write nontemporal (256-bit), size = 12 kB, loops = 16901795, 39606.0 MB/s
+Sequential write nontemporal (256-bit), size = 16 kB, loops = 12861440, 40189.2 MB/s
+Sequential write nontemporal (256-bit), size = 20 kB, loops = 10316124, 40287.8 MB/s
+Sequential write nontemporal (256-bit), size = 24 kB, loops = 8547630, 40067.0 MB/s
+Sequential write nontemporal (256-bit), size = 28 kB, loops = 7174440, 39230.5 MB/s
+Sequential write nontemporal (256-bit), size = 32 kB, loops = 6338560, 39606.1 MB/s
+Sequential write nontemporal (256-bit), size = 34 kB, loops = 5902401, 39184.0 MB/s
+Sequential write nontemporal (256-bit), size = 36 kB, loops = 5439980, 38238.5 MB/s
+Sequential write nontemporal (256-bit), size = 40 kB, loops = 4799340, 37493.2 MB/s
+Sequential write nontemporal (256-bit), size = 48 kB, loops = 3980340, 37315.4 MB/s
+Sequential write nontemporal (256-bit), size = 64 kB, loops = 2877440, 35965.0 MB/s
+Sequential write nontemporal (256-bit), size = 72 kB, loops = 2523430, 35482.6 MB/s
+Sequential write nontemporal (256-bit), size = 80 kB, loops = 2102373, 32842.3 MB/s
+Sequential write nontemporal (256-bit), size = 96 kB, loops = 1752058, 32840.7 MB/s
+Sequential write nontemporal (256-bit), size = 128 kB, loops = 1368576, 34202.7 MB/s
+Sequential write nontemporal (256-bit), size = 192 kB, loops = 903309, 33871.7 MB/s
+Sequential write nontemporal (256-bit), size = 256 kB, loops = 661760, 33084.1 MB/s
+Sequential write nontemporal (256-bit), size = 320 kB, loops = 496944, 31044.3 MB/s
+Sequential write nontemporal (256-bit), size = 384 kB, loops = 414970, 31112.0 MB/s
+Sequential write nontemporal (256-bit), size = 480 kB, loops = 337688, 31655.8 MB/s
+Sequential write nontemporal (256-bit), size = 512 kB, loops = 316288, 31626.8 MB/s
+Sequential write nontemporal (256-bit), size = 768 kB, loops = 212925, 31931.1 MB/s
+Sequential write nontemporal (256-bit), size = 1 MB, loops = 161024, 32199.2 MB/s
+Sequential write nontemporal (256-bit), size = 1.25 MB, loops = 127500, 31871.6 MB/s
+Sequential write nontemporal (256-bit), size = 1.5 MB, loops = 106596, 31975.7 MB/s
+Sequential write nontemporal (256-bit), size = 1.75 MB, loops = 91836, 32130.7 MB/s
+Sequential write nontemporal (256-bit), size = 2 MB, loops = 80224, 32079.5 MB/s
+Sequential write nontemporal (256-bit), size = 2.25 MB, loops = 71456, 32148.2 MB/s
+Sequential write nontemporal (256-bit), size = 2.5 MB, loops = 64075, 32028.0 MB/s
+Sequential write nontemporal (256-bit), size = 2.75 MB, loops = 58282, 32054.0 MB/s
+Sequential write nontemporal (256-bit), size = 3 MB, loops = 53277, 31965.5 MB/s
+Sequential write nontemporal (256-bit), size = 3.25 MB, loops = 48165, 31302.9 MB/s
+Sequential write nontemporal (256-bit), size = 3.5 MB, loops = 45702, 31988.8 MB/s
+Sequential write nontemporal (256-bit), size = 4 MB, loops = 40208, 32156.8 MB/s
+Sequential write nontemporal (256-bit), size = 5 MB, loops = 31992, 31984.7 MB/s
+Sequential write nontemporal (256-bit), size = 6 MB, loops = 26740, 32074.9 MB/s
+Sequential write nontemporal (256-bit), size = 7 MB, loops = 22131, 30974.5 MB/s
+Sequential write nontemporal (256-bit), size = 8 MB, loops = 19856, 31767.2 MB/s
+Sequential write nontemporal (256-bit), size = 9 MB, loops = 17850, 32128.1 MB/s
+Sequential write nontemporal (256-bit), size = 10 MB, loops = 16104, 32206.3 MB/s
+Sequential write nontemporal (256-bit), size = 11 MB, loops = 14650, 32228.8 MB/s
+Sequential write nontemporal (256-bit), size = 12 MB, loops = 13375, 32088.9 MB/s
+Sequential write nontemporal (256-bit), size = 13 MB, loops = 12384, 32187.4 MB/s
+Sequential write nontemporal (256-bit), size = 14 MB, loops = 11452, 32063.5 MB/s
+Sequential write nontemporal (256-bit), size = 15 MB, loops = 10744, 32231.1 MB/s
+Sequential write nontemporal (256-bit), size = 16 MB, loops = 10140, 32443.2 MB/s
+Sequential write nontemporal (256-bit), size = 20 MB, loops = 8133, 32532.0 MB/s
+Sequential write nontemporal (256-bit), size = 21 MB, loops = 7605, 31928.9 MB/s
+Sequential write nontemporal (256-bit), size = 32 MB, loops = 5988, 38318.9 MB/s
+Sequential write nontemporal (256-bit), size = 48 MB, loops = 3887, 37312.5 MB/s
+Sequential write nontemporal (256-bit), size = 64 MB, loops = 2970, 38007.8 MB/s
+Sequential write nontemporal (256-bit), size = 72 MB, loops = 2655, 38217.0 MB/s
+Sequential write nontemporal (256-bit), size = 96 MB, loops = 1997, 38324.4 MB/s
+Sequential write nontemporal (256-bit), size = 128 MB, loops = 1483, 37943.2 MB/s
+
+Random read (64-bit), size = 256 B, loops = 1019215872, 49727.0 MB/s
+Random read (64-bit), size = 512 B, loops = 514850816, 50217.1 MB/s
+Random read (64-bit), size = 768 B, loops = 343233550, 50240.4 MB/s
+Random read (64-bit), size = 1024 B, loops = 258473984, 50445.9 MB/s
+Random read (64-bit), size = 1280 B, loops = 203423550, 49567.0 MB/s
+Random read (64-bit), size = 2 kB, loops = 123994112, 48353.7 MB/s
+Random read (64-bit), size = 3 kB, loops = 83710998, 48986.0 MB/s
+Random read (64-bit), size = 4 kB, loops = 62390272, 48673.1 MB/s
+Random read (64-bit), size = 6 kB, loops = 41069070, 48050.8 MB/s
+Random read (64-bit), size = 8 kB, loops = 30998528, 48415.9 MB/s
+Random read (64-bit), size = 12 kB, loops = 20097400, 47087.7 MB/s
+Random read (64-bit), size = 16 kB, loops = 15466496, 48233.0 MB/s
+Random read (64-bit), size = 20 kB, loops = 12399222, 48403.3 MB/s
+Random read (64-bit), size = 24 kB, loops = 10441910, 48900.8 MB/s
+Random read (64-bit), size = 28 kB, loops = 8950072, 48890.7 MB/s
+Random read (64-bit), size = 32 kB, loops = 7110656, 44366.2 MB/s
+Random read (64-bit), size = 34 kB, loops = 5720820, 37895.6 MB/s
+Random read (64-bit), size = 36 kB, loops = 4965983, 34828.4 MB/s
+Random read (64-bit), size = 40 kB, loops = 4417059, 34458.6 MB/s
+Random read (64-bit), size = 48 kB, loops = 3637026, 34092.7 MB/s
+Random read (64-bit), size = 64 kB, loops = 2662400, 33242.3 MB/s
+Random read (64-bit), size = 72 kB, loops = 2329920, 32723.5 MB/s
+Random read (64-bit), size = 80 kB, loops = 2169043, 33843.4 MB/s
+Random read (64-bit), size = 96 kB, loops = 1752981, 32783.5 MB/s
+Random read (64-bit), size = 128 kB, loops = 1294336, 32343.4 MB/s
+Random read (64-bit), size = 192 kB, loops = 816270, 30567.5 MB/s
+Random read (64-bit), size = 256 kB, loops = 575488, 28731.1 MB/s
+Random read (64-bit), size = 320 kB, loops = 416052, 25927.7 MB/s
+Random read (64-bit), size = 384 kB, loops = 315315, 23580.3 MB/s
+Random read (64-bit), size = 480 kB, loops = 241332, 22607.1 MB/s
+Random read (64-bit), size = 512 kB, loops = 225280, 22477.6 MB/s
+Random read (64-bit), size = 768 kB, loops = 138446, 20685.4 MB/s
+Random read (64-bit), size = 1 MB, loops = 99840, 19939.7 MB/s
+Random read (64-bit), size = 1.25 MB, loops = 79755, 19884.7 MB/s
+Random read (64-bit), size = 1.5 MB, loops = 66154, 19830.7 MB/s
+Random read (64-bit), size = 1.75 MB, loops = 56356, 19658.5 MB/s
+Random read (64-bit), size = 2 MB, loops = 48896, 19508.0 MB/s
+Random read (64-bit), size = 2.25 MB, loops = 44038, 19731.7 MB/s
+Random read (64-bit), size = 2.5 MB, loops = 38352, 19137.0 MB/s
+Random read (64-bit), size = 2.75 MB, loops = 35712, 19510.1 MB/s
+Random read (64-bit), size = 3 MB, loops = 31790, 19063.6 MB/s
+Random read (64-bit), size = 3.25 MB, loops = 29673, 19241.9 MB/s
+Random read (64-bit), size = 3.5 MB, loops = 27156, 18956.1 MB/s
+Random read (64-bit), size = 4 MB, loops = 24704, 19714.2 MB/s
+Random read (64-bit), size = 5 MB, loops = 19278, 19256.9 MB/s
+Random read (64-bit), size = 6 MB, loops = 13600, 16223.1 MB/s
+Random read (64-bit), size = 7 MB, loops = 8906, 12459.1 MB/s
+Random read (64-bit), size = 8 MB, loops = 8384, 13322.0 MB/s
+Random read (64-bit), size = 9 MB, loops = 6384, 11413.7 MB/s
+Random read (64-bit), size = 10 MB, loops = 4845, 9624.1 MB/s
+Random read (64-bit), size = 11 MB, loops = 3910, 8576.9 MB/s
+Random read (64-bit), size = 12 MB, loops = 3024, 7234.3 MB/s
+Random read (64-bit), size = 13 MB, loops = 2613, 6774.3 MB/s
+Random read (64-bit), size = 14 MB, loops = 2340, 6516.4 MB/s
+Random read (64-bit), size = 15 MB, loops = 2142, 6348.9 MB/s
+Random read (64-bit), size = 16 MB, loops = 1888, 5978.2 MB/s
+Random read (64-bit), size = 20 MB, loops = 1400, 5503.7 MB/s
+Random read (64-bit), size = 21 MB, loops = 1272, 5317.4 MB/s
+Random read (64-bit), size = 32 MB, loops = 768, 4906.7 MB/s
+Random read (64-bit), size = 48 MB, loops = 500, 4739.1 MB/s
+Random read (64-bit), size = 64 MB, loops = 368, 4671.6 MB/s
+Random read (64-bit), size = 72 MB, loops = 329, 4663.4 MB/s
+Random read (64-bit), size = 96 MB, loops = 240, 4605.1 MB/s
+Random read (64-bit), size = 128 MB, loops = 180, 4602.6 MB/s
+
+Random read (128-bit), size = 256 B, loops = 2030043136, 99062.4 MB/s
+Random read (128-bit), size = 512 B, loops = 828375040, 80798.3 MB/s
+Random read (128-bit), size = 768 B, loops = 477451150, 69879.5 MB/s
+Random read (128-bit), size = 1024 B, loops = 381157376, 74392.7 MB/s
+Random read (128-bit), size = 1280 B, loops = 327994260, 80005.5 MB/s
+Random read (128-bit), size = 2 kB, loops = 216268800, 84464.5 MB/s
+Random read (128-bit), size = 3 kB, loops = 153615798, 90002.4 MB/s
+Random read (128-bit), size = 4 kB, loops = 117178368, 91487.5 MB/s
+Random read (128-bit), size = 6 kB, loops = 80652663, 94469.6 MB/s
+Random read (128-bit), size = 8 kB, loops = 61014016, 95311.8 MB/s
+Random read (128-bit), size = 12 kB, loops = 41636570, 97555.8 MB/s
+Random read (128-bit), size = 16 kB, loops = 31358976, 97896.7 MB/s
+Random read (128-bit), size = 20 kB, loops = 25034370, 97753.9 MB/s
+Random read (128-bit), size = 24 kB, loops = 21058580, 98649.9 MB/s
+Random read (128-bit), size = 28 kB, loops = 18124832, 99030.0 MB/s
+Random read (128-bit), size = 32 kB, loops = 14090240, 88059.7 MB/s
+Random read (128-bit), size = 34 kB, loops = 10886520, 72234.2 MB/s
+Random read (128-bit), size = 36 kB, loops = 9597017, 67386.6 MB/s
+Random read (128-bit), size = 40 kB, loops = 8480229, 66162.0 MB/s
+Random read (128-bit), size = 48 kB, loops = 6826250, 63903.8 MB/s
+Random read (128-bit), size = 64 kB, loops = 5038080, 62892.8 MB/s
+Random read (128-bit), size = 72 kB, loops = 4470534, 62809.3 MB/s
+Random read (128-bit), size = 80 kB, loops = 4003883, 62483.3 MB/s
+Random read (128-bit), size = 96 kB, loops = 3331210, 62446.5 MB/s
+Random read (128-bit), size = 128 kB, loops = 2478080, 61890.7 MB/s
+Random read (128-bit), size = 192 kB, loops = 1588860, 59561.6 MB/s
+Random read (128-bit), size = 256 kB, loops = 1064960, 53160.8 MB/s
+Random read (128-bit), size = 320 kB, loops = 725634, 45314.6 MB/s
+Random read (128-bit), size = 384 kB, loops = 541905, 40570.0 MB/s
+Random read (128-bit), size = 480 kB, loops = 392028, 36747.5 MB/s
+Random read (128-bit), size = 512 kB, loops = 369664, 36934.4 MB/s
+Random read (128-bit), size = 768 kB, loops = 230516, 34548.1 MB/s
+Random read (128-bit), size = 1 MB, loops = 168448, 33666.5 MB/s
+Random read (128-bit), size = 1.25 MB, loops = 128426, 32042.4 MB/s
+Random read (128-bit), size = 1.5 MB, loops = 108097, 32412.5 MB/s
+Random read (128-bit), size = 1.75 MB, loops = 91688, 32071.4 MB/s
+Random read (128-bit), size = 2 MB, loops = 79616, 31819.5 MB/s
+Random read (128-bit), size = 2.25 MB, loops = 70824, 31790.7 MB/s
+Random read (128-bit), size = 2.5 MB, loops = 63036, 31419.8 MB/s
+Random read (128-bit), size = 2.75 MB, loops = 56916, 31245.4 MB/s
+Random read (128-bit), size = 3 MB, loops = 51680, 31005.1 MB/s
+Random read (128-bit), size = 3.25 MB, loops = 48356, 31424.3 MB/s
+Random read (128-bit), size = 3.5 MB, loops = 45552, 31876.0 MB/s
+Random read (128-bit), size = 4 MB, loops = 39296, 31410.9 MB/s
+Random read (128-bit), size = 5 MB, loops = 31314, 31258.3 MB/s
+Random read (128-bit), size = 6 MB, loops = 24650, 29534.9 MB/s
+Random read (128-bit), size = 7 MB, loops = 18469, 25769.2 MB/s
+Random read (128-bit), size = 8 MB, loops = 13440, 21453.0 MB/s
+Random read (128-bit), size = 9 MB, loops = 10472, 18754.7 MB/s
+Random read (128-bit), size = 10 MB, loops = 7497, 14918.1 MB/s
+Random read (128-bit), size = 11 MB, loops = 6256, 13703.5 MB/s
+Random read (128-bit), size = 12 MB, loops = 5166, 12379.7 MB/s
+Random read (128-bit), size = 13 MB, loops = 4368, 11299.2 MB/s
+Random read (128-bit), size = 14 MB, loops = 3780, 10521.1 MB/s
+Random read (128-bit), size = 15 MB, loops = 3366, 10027.0 MB/s
+Random read (128-bit), size = 16 MB, loops = 2976, 9495.5 MB/s
+Random read (128-bit), size = 20 MB, loops = 2150, 8510.7 MB/s
+Random read (128-bit), size = 21 MB, loops = 1992, 8320.1 MB/s
+Random read (128-bit), size = 32 MB, loops = 1136, 7169.9 MB/s
+Random read (128-bit), size = 48 MB, loops = 720, 6840.6 MB/s
+Random read (128-bit), size = 64 MB, loops = 528, 6743.0 MB/s
+Random read (128-bit), size = 72 MB, loops = 469, 6684.7 MB/s
+Random read (128-bit), size = 96 MB, loops = 345, 6582.6 MB/s
+Random read (128-bit), size = 128 MB, loops = 256, 6472.9 MB/s
+
+Random read (256-bit), size = 256 B, loops = 3728736256, 181970.6 MB/s
+Random read (256-bit), size = 512 B, loops = 1877999616, 183379.8 MB/s
+Random read (256-bit), size = 768 B, loops = 1247105200, 182666.4 MB/s
+Random read (256-bit), size = 1024 B, loops = 927465472, 181132.2 MB/s
+Random read (256-bit), size = 1280 B, loops = 741132810, 180869.4 MB/s
+Random read (256-bit), size = 2 kB, loops = 463994880, 181217.0 MB/s
+Random read (256-bit), size = 3 kB, loops = 308105406, 180490.5 MB/s
+Random read (256-bit), size = 4 kB, loops = 230817792, 180235.0 MB/s
+Random read (256-bit), size = 6 kB, loops = 148635081, 174131.3 MB/s
+Random read (256-bit), size = 8 kB, loops = 108527616, 169526.5 MB/s
+Random read (256-bit), size = 12 kB, loops = 73661340, 172631.1 MB/s
+Random read (256-bit), size = 16 kB, loops = 56033280, 175077.0 MB/s
+Random read (256-bit), size = 20 kB, loops = 44983224, 175712.8 MB/s
+Random read (256-bit), size = 24 kB, loops = 37726315, 176813.4 MB/s
+Random read (256-bit), size = 28 kB, loops = 32298900, 176575.4 MB/s
+Random read (256-bit), size = 32 kB, loops = 26214400, 163745.6 MB/s
+Random read (256-bit), size = 34 kB, loops = 21094560, 140070.9 MB/s
+Random read (256-bit), size = 36 kB, loops = 17883364, 125643.9 MB/s
+Random read (256-bit), size = 40 kB, loops = 15387618, 120152.6 MB/s
+Random read (256-bit), size = 48 kB, loops = 12079732, 113245.2 MB/s
+Random read (256-bit), size = 64 kB, loops = 8749056, 109261.1 MB/s
+Random read (256-bit), size = 72 kB, loops = 7703298, 108254.4 MB/s
+Random read (256-bit), size = 80 kB, loops = 6631636, 103591.5 MB/s
+Random read (256-bit), size = 96 kB, loops = 5526532, 103548.0 MB/s
+Random read (256-bit), size = 128 kB, loops = 4182016, 104547.1 MB/s
+Random read (256-bit), size = 192 kB, loops = 2839200, 106401.6 MB/s
+Random read (256-bit), size = 256 kB, loops = 1726464, 86257.2 MB/s
+Random read (256-bit), size = 320 kB, loops = 1056510, 66019.8 MB/s
+Random read (256-bit), size = 384 kB, loops = 734370, 55033.1 MB/s
+Random read (256-bit), size = 480 kB, loops = 528528, 49479.4 MB/s
+Random read (256-bit), size = 512 kB, loops = 484352, 48387.0 MB/s
+Random read (256-bit), size = 768 kB, loops = 284394, 42597.2 MB/s
+Random read (256-bit), size = 1 MB, loops = 200192, 39985.4 MB/s
+Random read (256-bit), size = 1.25 MB, loops = 156647, 39102.7 MB/s
+Random read (256-bit), size = 1.5 MB, loops = 125147, 37535.7 MB/s
+Random read (256-bit), size = 1.75 MB, loops = 108332, 37833.6 MB/s
+Random read (256-bit), size = 2 MB, loops = 93952, 37502.7 MB/s
+Random read (256-bit), size = 2.25 MB, loops = 83309, 37481.2 MB/s
+Random read (256-bit), size = 2.5 MB, loops = 74460, 37196.2 MB/s
+Random read (256-bit), size = 2.75 MB, loops = 67146, 36852.2 MB/s
+Random read (256-bit), size = 3 MB, loops = 61540, 36826.5 MB/s
+Random read (256-bit), size = 3.25 MB, loops = 56834, 36893.9 MB/s
+Random read (256-bit), size = 3.5 MB, loops = 51684, 36128.9 MB/s
+Random read (256-bit), size = 4 MB, loops = 44160, 35325.3 MB/s
+Random read (256-bit), size = 5 MB, loops = 35496, 35463.3 MB/s
+Random read (256-bit), size = 6 MB, loops = 28815, 34500.5 MB/s
+Random read (256-bit), size = 7 MB, loops = 22484, 31383.4 MB/s
+Random read (256-bit), size = 8 MB, loops = 17600, 28090.8 MB/s
+Random read (256-bit), size = 9 MB, loops = 13832, 24875.4 MB/s
+Random read (256-bit), size = 10 MB, loops = 10761, 21500.4 MB/s
+Random read (256-bit), size = 11 MB, loops = 8326, 18304.6 MB/s
+Random read (256-bit), size = 12 MB, loops = 6678, 15993.1 MB/s
+Random read (256-bit), size = 13 MB, loops = 5382, 13981.6 MB/s
+Random read (256-bit), size = 14 MB, loops = 4572, 12732.3 MB/s
+Random read (256-bit), size = 15 MB, loops = 3910, 11697.0 MB/s
+Random read (256-bit), size = 16 MB, loops = 3488, 11064.4 MB/s
+Random read (256-bit), size = 20 MB, loops = 2375, 9451.4 MB/s
+Random read (256-bit), size = 21 MB, loops = 2208, 9215.1 MB/s
+Random read (256-bit), size = 32 MB, loops = 1264, 8087.2 MB/s
+Random read (256-bit), size = 48 MB, loops = 830, 7878.2 MB/s
+Random read (256-bit), size = 64 MB, loops = 600, 7597.8 MB/s
+Random read (256-bit), size = 72 MB, loops = 532, 7650.6 MB/s
+Random read (256-bit), size = 96 MB, loops = 395, 7488.8 MB/s
+Random read (256-bit), size = 128 MB, loops = 288, 7361.8 MB/s
+
+Random read nontemporal (128-bit), size = 256 B, loops = 1447034880, 70618.1 MB/s
+Random read nontemporal (128-bit), size = 512 B, loops = 848297984, 82766.1 MB/s
+Random read nontemporal (128-bit), size = 768 B, loops = 569026700, 83298.6 MB/s
+Random read nontemporal (128-bit), size = 1024 B, loops = 428343296, 83559.7 MB/s
+Random read nontemporal (128-bit), size = 1280 B, loops = 343093740, 83705.2 MB/s
+Random read nontemporal (128-bit), size = 2 kB, loops = 214433792, 83683.2 MB/s
+Random read nontemporal (128-bit), size = 3 kB, loops = 142780554, 83585.1 MB/s
+Random read nontemporal (128-bit), size = 4 kB, loops = 107085824, 83561.7 MB/s
+Random read nontemporal (128-bit), size = 6 kB, loops = 66584322, 78001.6 MB/s
+Random read nontemporal (128-bit), size = 8 kB, loops = 50921472, 79490.2 MB/s
+Random read nontemporal (128-bit), size = 12 kB, loops = 34471410, 80764.6 MB/s
+Random read nontemporal (128-bit), size = 16 kB, loops = 25362432, 79215.9 MB/s
+Random read nontemporal (128-bit), size = 20 kB, loops = 20840130, 81330.8 MB/s
+Random read nontemporal (128-bit), size = 24 kB, loops = 17388620, 81474.9 MB/s
+Random read nontemporal (128-bit), size = 28 kB, loops = 14866856, 81242.3 MB/s
+Random read nontemporal (128-bit), size = 32 kB, loops = 11796480, 73722.1 MB/s
+Random read nontemporal (128-bit), size = 34 kB, loops = 9591240, 63597.8 MB/s
+Random read nontemporal (128-bit), size = 36 kB, loops = 8533918, 59913.0 MB/s
+Random read nontemporal (128-bit), size = 40 kB, loops = 7484097, 58434.4 MB/s
+Random read nontemporal (128-bit), size = 48 kB, loops = 6072632, 56858.2 MB/s
+Random read nontemporal (128-bit), size = 64 kB, loops = 4481024, 55923.6 MB/s
+Random read nontemporal (128-bit), size = 72 kB, loops = 4019112, 56468.0 MB/s
+Random read nontemporal (128-bit), size = 80 kB, loops = 3591044, 56019.0 MB/s
+Random read nontemporal (128-bit), size = 96 kB, loops = 2981706, 55835.1 MB/s
+Random read nontemporal (128-bit), size = 128 kB, loops = 2146304, 53585.7 MB/s
+Random read nontemporal (128-bit), size = 192 kB, loops = 1460550, 54764.5 MB/s
+Random read nontemporal (128-bit), size = 256 kB, loops = 1009664, 50478.3 MB/s
+Random read nontemporal (128-bit), size = 320 kB, loops = 676494, 42218.2 MB/s
+Random read nontemporal (128-bit), size = 384 kB, loops = 507780, 38009.9 MB/s
+Random read nontemporal (128-bit), size = 480 kB, loops = 378924, 35461.3 MB/s
+Random read nontemporal (128-bit), size = 512 kB, loops = 347136, 34640.1 MB/s
+Random read nontemporal (128-bit), size = 768 kB, loops = 214830, 32207.5 MB/s
+Random read nontemporal (128-bit), size = 1 MB, loops = 154112, 30763.5 MB/s
+Random read nontemporal (128-bit), size = 1.25 MB, loops = 121064, 30178.2 MB/s
+Random read nontemporal (128-bit), size = 1.5 MB, loops = 99572, 29774.4 MB/s
+Random read nontemporal (128-bit), size = 1.75 MB, loops = 83220, 29122.5 MB/s
+Random read nontemporal (128-bit), size = 2 MB, loops = 72704, 29050.7 MB/s
+Random read nontemporal (128-bit), size = 2.25 MB, loops = 64014, 28741.3 MB/s
+Random read nontemporal (128-bit), size = 2.5 MB, loops = 58344, 29148.6 MB/s
+Random read nontemporal (128-bit), size = 2.75 MB, loops = 51894, 28453.4 MB/s
+Random read nontemporal (128-bit), size = 3 MB, loops = 48110, 28821.7 MB/s
+Random read nontemporal (128-bit), size = 3.25 MB, loops = 44274, 28775.9 MB/s
+Random read nontemporal (128-bit), size = 3.5 MB, loops = 40734, 28488.1 MB/s
+Random read nontemporal (128-bit), size = 4 MB, loops = 35328, 28174.7 MB/s
+Random read nontemporal (128-bit), size = 5 MB, loops = 27234, 27215.9 MB/s
+Random read nontemporal (128-bit), size = 6 MB, loops = 21675, 26005.9 MB/s
+Random read nontemporal (128-bit), size = 7 MB, loops = 16279, 22738.9 MB/s
+Random read nontemporal (128-bit), size = 8 MB, loops = 12352, 19753.5 MB/s
+Random read nontemporal (128-bit), size = 9 MB, loops = 9408, 16854.0 MB/s
+Random read nontemporal (128-bit), size = 10 MB, loops = 7344, 14666.2 MB/s
+Random read nontemporal (128-bit), size = 11 MB, loops = 5934, 13009.8 MB/s
+Random read nontemporal (128-bit), size = 12 MB, loops = 4914, 11784.3 MB/s
+Random read nontemporal (128-bit), size = 13 MB, loops = 4251, 10973.2 MB/s
+Random read nontemporal (128-bit), size = 14 MB, loops = 3708, 10321.6 MB/s
+Random read nontemporal (128-bit), size = 15 MB, loops = 3332, 9914.5 MB/s
+Random read nontemporal (128-bit), size = 16 MB, loops = 2944, 9414.6 MB/s
+Random read nontemporal (128-bit), size = 20 MB, loops = 2125, 8496.6 MB/s
+Random read nontemporal (128-bit), size = 21 MB, loops = 1968, 8255.5 MB/s
+Random read nontemporal (128-bit), size = 32 MB, loops = 1168, 7398.5 MB/s
+Random read nontemporal (128-bit), size = 48 MB, loops = 740, 7055.5 MB/s
+Random read nontemporal (128-bit), size = 64 MB, loops = 536, 6857.1 MB/s
+Random read nontemporal (128-bit), size = 72 MB, loops = 476, 6805.1 MB/s
+Random read nontemporal (128-bit), size = 96 MB, loops = 350, 6692.0 MB/s
+Random read nontemporal (128-bit), size = 128 MB, loops = 260, 6596.6 MB/s
+
+Random write (64-bit), size = 256 B, loops = 684457984, 33410.8 MB/s
+Random write (64-bit), size = 512 B, loops = 335806464, 32785.4 MB/s
+Random write (64-bit), size = 768 B, loops = 225705123, 33052.0 MB/s
+Random write (64-bit), size = 1024 B, loops = 170852352, 33358.6 MB/s
+Random write (64-bit), size = 1280 B, loops = 130545720, 31866.6 MB/s
+Random write (64-bit), size = 2 kB, loops = 83951616, 32791.7 MB/s
+Random write (64-bit), size = 3 kB, loops = 57255745, 33541.7 MB/s
+Random write (64-bit), size = 4 kB, loops = 42860544, 33475.0 MB/s
+Random write (64-bit), size = 6 kB, loops = 28309824, 33164.2 MB/s
+Random write (64-bit), size = 8 kB, loops = 20897792, 32644.5 MB/s
+Random write (64-bit), size = 12 kB, loops = 13728954, 32172.3 MB/s
+Random write (64-bit), size = 16 kB, loops = 10575872, 33038.0 MB/s
+Random write (64-bit), size = 20 kB, loops = 8347248, 32599.1 MB/s
+Random write (64-bit), size = 24 kB, loops = 7076160, 33164.1 MB/s
+Random write (64-bit), size = 28 kB, loops = 6018480, 32912.0 MB/s
+Random write (64-bit), size = 32 kB, loops = 4380672, 27370.2 MB/s
+Random write (64-bit), size = 34 kB, loops = 3148718, 20901.1 MB/s
+Random write (64-bit), size = 36 kB, loops = 2740920, 19263.0 MB/s
+Random write (64-bit), size = 40 kB, loops = 2434068, 19014.5 MB/s
+Random write (64-bit), size = 48 kB, loops = 2003820, 18784.6 MB/s
+Random write (64-bit), size = 64 kB, loops = 1490944, 18634.0 MB/s
+Random write (64-bit), size = 72 kB, loops = 1338610, 18816.0 MB/s
+Random write (64-bit), size = 80 kB, loops = 1205568, 18825.6 MB/s
+Random write (64-bit), size = 96 kB, loops = 992992, 18615.8 MB/s
+Random write (64-bit), size = 128 kB, loops = 738304, 18450.8 MB/s
+Random write (64-bit), size = 192 kB, loops = 499565, 18727.0 MB/s
+Random write (64-bit), size = 256 kB, loops = 356352, 17805.6 MB/s
+Random write (64-bit), size = 320 kB, loops = 261528, 16333.8 MB/s
+Random write (64-bit), size = 384 kB, loops = 217940, 16337.2 MB/s
+Random write (64-bit), size = 480 kB, loops = 174080, 16310.0 MB/s
+Random write (64-bit), size = 512 kB, loops = 163200, 16318.5 MB/s
+Random write (64-bit), size = 768 kB, loops = 108885, 16324.4 MB/s
+Random write (64-bit), size = 1 MB, loops = 80768, 16151.4 MB/s
+Random write (64-bit), size = 1.25 MB, loops = 64668, 16162.2 MB/s
+Random write (64-bit), size = 1.5 MB, loops = 53844, 16150.2 MB/s
+Random write (64-bit), size = 1.75 MB, loops = 46260, 16188.8 MB/s
+Random write (64-bit), size = 2 MB, loops = 40768, 16305.7 MB/s
+Random write (64-bit), size = 2.25 MB, loops = 36204, 16282.5 MB/s
+Random write (64-bit), size = 2.5 MB, loops = 32575, 16284.3 MB/s
+Random write (64-bit), size = 2.75 MB, loops = 29417, 16176.0 MB/s
+Random write (64-bit), size = 3 MB, loops = 26964, 16170.3 MB/s
+Random write (64-bit), size = 3.25 MB, loops = 24966, 16221.5 MB/s
+Random write (64-bit), size = 3.5 MB, loops = 22572, 15791.5 MB/s
+Random write (64-bit), size = 4 MB, loops = 20016, 16011.7 MB/s
+Random write (64-bit), size = 5 MB, loops = 16092, 16084.5 MB/s
+Random write (64-bit), size = 6 MB, loops = 13300, 15954.3 MB/s
+Random write (64-bit), size = 7 MB, loops = 10620, 14860.4 MB/s
+Random write (64-bit), size = 8 MB, loops = 8800, 14072.6 MB/s
+Random write (64-bit), size = 9 MB, loops = 7560, 13596.5 MB/s
+Random write (64-bit), size = 10 MB, loops = 6348, 12691.2 MB/s
+Random write (64-bit), size = 11 MB, loops = 5430, 11944.7 MB/s
+Random write (64-bit), size = 12 MB, loops = 4640, 11130.3 MB/s
+Random write (64-bit), size = 13 MB, loops = 3948, 10262.7 MB/s
+Random write (64-bit), size = 14 MB, loops = 3400, 9515.1 MB/s
+Random write (64-bit), size = 15 MB, loops = 2992, 8974.0 MB/s
+Random write (64-bit), size = 16 MB, loops = 2640, 8447.7 MB/s
+Random write (64-bit), size = 20 MB, loops = 1857, 7418.6 MB/s
+Random write (64-bit), size = 21 MB, loops = 1797, 7546.4 MB/s
+Random write (64-bit), size = 32 MB, loops = 916, 5858.2 MB/s
+Random write (64-bit), size = 48 MB, loops = 580, 5567.0 MB/s
+Random write (64-bit), size = 64 MB, loops = 426, 5452.0 MB/s
+Random write (64-bit), size = 72 MB, loops = 382, 5489.8 MB/s
+Random write (64-bit), size = 96 MB, loops = 282, 5411.1 MB/s
+Random write (64-bit), size = 128 MB, loops = 210, 5363.7 MB/s
+
+Random write (128-bit), size = 256 B, loops = 1359478784, 66374.4 MB/s
+Random write (128-bit), size = 512 B, loops = 686030848, 66989.7 MB/s
+Random write (128-bit), size = 768 B, loops = 457439535, 67001.5 MB/s
+Random write (128-bit), size = 1024 B, loops = 342949888, 66972.1 MB/s
+Random write (128-bit), size = 1280 B, loops = 274250868, 66944.5 MB/s
+Random write (128-bit), size = 2 kB, loops = 171573248, 67009.1 MB/s
+Random write (128-bit), size = 3 kB, loops = 114577025, 67122.9 MB/s
+Random write (128-bit), size = 4 kB, loops = 83558400, 65279.3 MB/s
+Random write (128-bit), size = 6 kB, loops = 51213258, 60006.2 MB/s
+Random write (128-bit), size = 8 kB, loops = 42016768, 65643.6 MB/s
+Random write (128-bit), size = 12 kB, loops = 27501596, 64453.7 MB/s
+Random write (128-bit), size = 16 kB, loops = 19390464, 60585.8 MB/s
+Random write (128-bit), size = 20 kB, loops = 16540524, 64608.6 MB/s
+Random write (128-bit), size = 24 kB, loops = 13723710, 64322.4 MB/s
+Random write (128-bit), size = 28 kB, loops = 10859940, 59384.5 MB/s
+Random write (128-bit), size = 32 kB, loops = 6946816, 43406.8 MB/s
+Random write (128-bit), size = 34 kB, loops = 5218316, 34647.6 MB/s
+Random write (128-bit), size = 36 kB, loops = 4140500, 29109.3 MB/s
+Random write (128-bit), size = 40 kB, loops = 3356262, 26210.2 MB/s
+Random write (128-bit), size = 48 kB, loops = 2795520, 26199.6 MB/s
+Random write (128-bit), size = 64 kB, loops = 2176000, 27188.6 MB/s
+Random write (128-bit), size = 72 kB, loops = 1941030, 27294.1 MB/s
+Random write (128-bit), size = 80 kB, loops = 1707615, 26677.2 MB/s
+Random write (128-bit), size = 96 kB, loops = 1373548, 25747.1 MB/s
+Random write (128-bit), size = 128 kB, loops = 1040896, 26010.7 MB/s
+Random write (128-bit), size = 192 kB, loops = 674498, 25281.9 MB/s
+Random write (128-bit), size = 256 kB, loops = 491520, 24569.7 MB/s
+Random write (128-bit), size = 320 kB, loops = 333540, 20839.9 MB/s
+Random write (128-bit), size = 384 kB, loops = 264010, 19793.9 MB/s
+Random write (128-bit), size = 480 kB, loops = 217056, 20341.8 MB/s
+Random write (128-bit), size = 512 kB, loops = 201856, 20177.5 MB/s
+Random write (128-bit), size = 768 kB, loops = 143140, 21466.2 MB/s
+Random write (128-bit), size = 1 MB, loops = 103808, 20753.9 MB/s
+Random write (128-bit), size = 1.25 MB, loops = 84813, 21194.0 MB/s
+Random write (128-bit), size = 1.5 MB, loops = 70896, 21268.6 MB/s
+Random write (128-bit), size = 1.75 MB, loops = 60840, 21288.4 MB/s
+Random write (128-bit), size = 2 MB, loops = 53184, 21261.8 MB/s
+Random write (128-bit), size = 2.25 MB, loops = 46564, 20947.4 MB/s
+Random write (128-bit), size = 2.5 MB, loops = 42200, 21097.3 MB/s
+Random write (128-bit), size = 2.75 MB, loops = 38594, 21226.5 MB/s
+Random write (128-bit), size = 3 MB, loops = 35427, 21244.6 MB/s
+Random write (128-bit), size = 3.25 MB, loops = 32376, 21043.8 MB/s
+Random write (128-bit), size = 3.5 MB, loops = 30438, 21300.2 MB/s
+Random write (128-bit), size = 4 MB, loops = 26288, 21024.6 MB/s
+Random write (128-bit), size = 5 MB, loops = 20748, 20741.0 MB/s
+Random write (128-bit), size = 6 MB, loops = 17260, 20707.8 MB/s
+Random write (128-bit), size = 7 MB, loops = 13986, 19567.7 MB/s
+Random write (128-bit), size = 8 MB, loops = 11688, 18694.5 MB/s
+Random write (128-bit), size = 9 MB, loops = 9779, 17595.4 MB/s
+Random write (128-bit), size = 10 MB, loops = 7986, 15967.2 MB/s
+Random write (128-bit), size = 11 MB, loops = 6420, 14118.8 MB/s
+Random write (128-bit), size = 12 MB, loops = 5080, 12182.0 MB/s
+Random write (128-bit), size = 13 MB, loops = 4072, 10579.5 MB/s
+Random write (128-bit), size = 14 MB, loops = 3504, 9808.1 MB/s
+Random write (128-bit), size = 15 MB, loops = 3020, 9055.6 MB/s
+Random write (128-bit), size = 16 MB, loops = 2656, 8493.9 MB/s
+Random write (128-bit), size = 20 MB, loops = 1902, 7599.2 MB/s
+Random write (128-bit), size = 21 MB, loops = 1788, 7502.1 MB/s
+Random write (128-bit), size = 32 MB, loops = 898, 5740.3 MB/s
+Random write (128-bit), size = 48 MB, loops = 574, 5501.9 MB/s
+Random write (128-bit), size = 64 MB, loops = 418, 5340.0 MB/s
+Random write (128-bit), size = 72 MB, loops = 370, 5324.8 MB/s
+Random write (128-bit), size = 96 MB, loops = 262, 5026.8 MB/s
+Random write (128-bit), size = 128 MB, loops = 200, 5103.1 MB/s
+
+Random write (256-bit), size = 256 B, loops = 2630352896, 128423.7 MB/s
+Random write (256-bit), size = 512 B, loops = 1232207872, 120327.3 MB/s
+Random write (256-bit), size = 768 B, loops = 801545913, 117413.5 MB/s
+Random write (256-bit), size = 1024 B, loops = 617152512, 120528.6 MB/s
+Random write (256-bit), size = 1280 B, loops = 519666336, 126860.3 MB/s
+Random write (256-bit), size = 2 kB, loops = 328433664, 128287.7 MB/s
+Random write (256-bit), size = 3 kB, loops = 220809260, 129371.8 MB/s
+Random write (256-bit), size = 4 kB, loops = 150503424, 117574.2 MB/s
+Random write (256-bit), size = 6 kB, loops = 101640132, 119098.1 MB/s
+Random write (256-bit), size = 8 kB, loops = 75071488, 117293.4 MB/s
+Random write (256-bit), size = 12 kB, loops = 52321841, 122626.3 MB/s
+Random write (256-bit), size = 16 kB, loops = 38137856, 119175.8 MB/s
+Random write (256-bit), size = 20 kB, loops = 31718232, 123888.1 MB/s
+Random write (256-bit), size = 24 kB, loops = 26014170, 121936.3 MB/s
+Random write (256-bit), size = 28 kB, loops = 21911760, 119819.5 MB/s
+Random write (256-bit), size = 32 kB, loops = 12990464, 81178.1 MB/s
+Random write (256-bit), size = 34 kB, loops = 10037743, 66652.3 MB/s
+Random write (256-bit), size = 36 kB, loops = 7644000, 53735.6 MB/s
+Random write (256-bit), size = 40 kB, loops = 6371820, 49772.6 MB/s
+Random write (256-bit), size = 48 kB, loops = 5334420, 50010.2 MB/s
+Random write (256-bit), size = 64 kB, loops = 3898368, 48719.0 MB/s
+Random write (256-bit), size = 72 kB, loops = 3471650, 48811.4 MB/s
+Random write (256-bit), size = 80 kB, loops = 3141684, 49081.1 MB/s
+Random write (256-bit), size = 96 kB, loops = 2616152, 49049.2 MB/s
+Random write (256-bit), size = 128 kB, loops = 1968128, 49201.5 MB/s
+Random write (256-bit), size = 192 kB, loops = 1317624, 49406.2 MB/s
+Random write (256-bit), size = 256 kB, loops = 908032, 45389.9 MB/s
+Random write (256-bit), size = 320 kB, loops = 527340, 32955.7 MB/s
+Random write (256-bit), size = 384 kB, loops = 422450, 31674.1 MB/s
+Random write (256-bit), size = 480 kB, loops = 334288, 31328.9 MB/s
+Random write (256-bit), size = 512 kB, loops = 312064, 31201.7 MB/s
+Random write (256-bit), size = 768 kB, loops = 201620, 30241.0 MB/s
+Random write (256-bit), size = 1 MB, loops = 148544, 29697.0 MB/s
+Random write (256-bit), size = 1.25 MB, loops = 118524, 29628.0 MB/s
+Random write (256-bit), size = 1.5 MB, loops = 97860, 29356.6 MB/s
+Random write (256-bit), size = 1.75 MB, loops = 84312, 29499.4 MB/s
+Random write (256-bit), size = 2 MB, loops = 72352, 28940.4 MB/s
+Random write (256-bit), size = 2.25 MB, loops = 65324, 29386.9 MB/s
+Random write (256-bit), size = 2.5 MB, loops = 58400, 29177.7 MB/s
+Random write (256-bit), size = 2.75 MB, loops = 50738, 27903.9 MB/s
+Random write (256-bit), size = 3 MB, loops = 48111, 28861.9 MB/s
+Random write (256-bit), size = 3.25 MB, loops = 44498, 28919.8 MB/s
+Random write (256-bit), size = 3.5 MB, loops = 41544, 29080.2 MB/s
+Random write (256-bit), size = 4 MB, loops = 35904, 28717.1 MB/s
+Random write (256-bit), size = 5 MB, loops = 28608, 28602.3 MB/s
+Random write (256-bit), size = 6 MB, loops = 23400, 28068.2 MB/s
+Random write (256-bit), size = 7 MB, loops = 17685, 24757.6 MB/s
+Random write (256-bit), size = 8 MB, loops = 14112, 22568.7 MB/s
+Random write (256-bit), size = 9 MB, loops = 11193, 20145.7 MB/s
+Random write (256-bit), size = 10 MB, loops = 8664, 17321.9 MB/s
+Random write (256-bit), size = 11 MB, loops = 6635, 14587.9 MB/s
+Random write (256-bit), size = 12 MB, loops = 5195, 12462.8 MB/s
+Random write (256-bit), size = 13 MB, loops = 4152, 10793.1 MB/s
+Random write (256-bit), size = 14 MB, loops = 3492, 9771.4 MB/s
+Random write (256-bit), size = 15 MB, loops = 2996, 8981.8 MB/s
+Random write (256-bit), size = 16 MB, loops = 2624, 8393.4 MB/s
+Random write (256-bit), size = 20 MB, loops = 1890, 7550.7 MB/s
+Random write (256-bit), size = 21 MB, loops = 1791, 7519.0 MB/s
+Random write (256-bit), size = 32 MB, loops = 892, 5705.4 MB/s
+Random write (256-bit), size = 48 MB, loops = 560, 5376.0 MB/s
+Random write (256-bit), size = 64 MB, loops = 410, 5246.1 MB/s
+Random write (256-bit), size = 72 MB, loops = 365, 5254.4 MB/s
+Random write (256-bit), size = 96 MB, loops = 270, 5183.1 MB/s
+Random write (256-bit), size = 128 MB, loops = 199, 5089.1 MB/s
+
+Random write nontemporal (128-bit), size = 256 B, loops = 171704320, 8380.0 MB/s
+Random write nontemporal (128-bit), size = 512 B, loops = 166985728, 16295.3 MB/s
+Random write nontemporal (128-bit), size = 768 B, loops = 162266517, 23761.1 MB/s
+Random write nontemporal (128-bit), size = 1024 B, loops = 116654080, 22773.0 MB/s
+Random write nontemporal (128-bit), size = 1280 B, loops = 87292620, 21303.5 MB/s
+Random write nontemporal (128-bit), size = 2 kB, loops = 69173248, 27013.5 MB/s
+Random write nontemporal (128-bit), size = 3 kB, loops = 51204680, 29997.6 MB/s
+Random write nontemporal (128-bit), size = 4 kB, loops = 39534592, 30885.6 MB/s
+Random write nontemporal (128-bit), size = 6 kB, loops = 26125424, 30615.3 MB/s
+Random write nontemporal (128-bit), size = 8 kB, loops = 19857408, 31025.6 MB/s
+Random write nontemporal (128-bit), size = 12 kB, loops = 13161010, 30844.7 MB/s
+Random write nontemporal (128-bit), size = 16 kB, loops = 9428992, 29453.3 MB/s
+Random write nontemporal (128-bit), size = 20 kB, loops = 7692048, 30043.6 MB/s
+Random write nontemporal (128-bit), size = 24 kB, loops = 6513780, 30523.1 MB/s
+Random write nontemporal (128-bit), size = 28 kB, loops = 5587920, 30556.2 MB/s
+Random write nontemporal (128-bit), size = 32 kB, loops = 4915200, 30718.8 MB/s
+Random write nontemporal (128-bit), size = 34 kB, loops = 4549647, 30203.6 MB/s
+Random write nontemporal (128-bit), size = 36 kB, loops = 4311580, 30307.3 MB/s
+Random write nontemporal (128-bit), size = 40 kB, loops = 3839472, 29986.7 MB/s
+Random write nontemporal (128-bit), size = 48 kB, loops = 3174990, 29757.9 MB/s
+Random write nontemporal (128-bit), size = 64 kB, loops = 2394112, 29916.7 MB/s
+Random write nontemporal (128-bit), size = 72 kB, loops = 2107560, 29632.4 MB/s
+Random write nontemporal (128-bit), size = 80 kB, loops = 1794429, 28027.6 MB/s
+Random write nontemporal (128-bit), size = 96 kB, loops = 1627934, 30523.7 MB/s
+Random write nontemporal (128-bit), size = 128 kB, loops = 1226752, 30667.0 MB/s
+Random write nontemporal (128-bit), size = 192 kB, loops = 817718, 30664.4 MB/s
+Random write nontemporal (128-bit), size = 256 kB, loops = 599552, 29966.7 MB/s
+Random write nontemporal (128-bit), size = 320 kB, loops = 471036, 29430.0 MB/s
+Random write nontemporal (128-bit), size = 384 kB, loops = 378930, 28414.2 MB/s
+Random write nontemporal (128-bit), size = 480 kB, loops = 314024, 29438.6 MB/s
+Random write nontemporal (128-bit), size = 512 kB, loops = 295296, 29521.0 MB/s
+Random write nontemporal (128-bit), size = 768 kB, loops = 196690, 29497.1 MB/s
+Random write nontemporal (128-bit), size = 1 MB, loops = 146240, 29242.2 MB/s
+Random write nontemporal (128-bit), size = 1.25 MB, loops = 118371, 29590.3 MB/s
+Random write nontemporal (128-bit), size = 1.5 MB, loops = 97776, 29321.8 MB/s
+Random write nontemporal (128-bit), size = 1.75 MB, loops = 83592, 29248.8 MB/s
+Random write nontemporal (128-bit), size = 2 MB, loops = 73440, 29368.6 MB/s
+Random write nontemporal (128-bit), size = 2.25 MB, loops = 65240, 29352.2 MB/s
+Random write nontemporal (128-bit), size = 2.5 MB, loops = 58200, 29099.3 MB/s
+Random write nontemporal (128-bit), size = 2.75 MB, loops = 52371, 28796.0 MB/s
+Random write nontemporal (128-bit), size = 3 MB, loops = 48552, 29129.2 MB/s
+Random write nontemporal (128-bit), size = 3.25 MB, loops = 44270, 28761.9 MB/s
+Random write nontemporal (128-bit), size = 3.5 MB, loops = 35550, 24872.3 MB/s
+Random write nontemporal (128-bit), size = 4 MB, loops = 32368, 25889.4 MB/s
+Random write nontemporal (128-bit), size = 5 MB, loops = 25764, 25761.5 MB/s
+Random write nontemporal (128-bit), size = 6 MB, loops = 23840, 28600.5 MB/s
+Random write nontemporal (128-bit), size = 7 MB, loops = 19710, 27584.8 MB/s
+Random write nontemporal (128-bit), size = 8 MB, loops = 16368, 26182.2 MB/s
+Random write nontemporal (128-bit), size = 9 MB, loops = 14497, 26093.4 MB/s
+Random write nontemporal (128-bit), size = 10 MB, loops = 12852, 25703.1 MB/s
+Random write nontemporal (128-bit), size = 11 MB, loops = 11505, 25303.1 MB/s
+Random write nontemporal (128-bit), size = 12 MB, loops = 9455, 22691.5 MB/s
+Random write nontemporal (128-bit), size = 13 MB, loops = 9352, 24312.0 MB/s
+Random write nontemporal (128-bit), size = 14 MB, loops = 8824, 24703.7 MB/s
+Random write nontemporal (128-bit), size = 15 MB, loops = 7992, 23972.1 MB/s
+Random write nontemporal (128-bit), size = 16 MB, loops = 7572, 24218.4 MB/s
+Random write nontemporal (128-bit), size = 20 MB, loops = 5907, 23625.4 MB/s
+Random write nontemporal (128-bit), size = 21 MB, loops = 5568, 23377.4 MB/s
+Random write nontemporal (128-bit), size = 32 MB, loops = 1064, 6805.9 MB/s
+Random write nontemporal (128-bit), size = 48 MB, loops = 697, 6686.6 MB/s
+Random write nontemporal (128-bit), size = 64 MB, loops = 514, 6567.5 MB/s
+Random write nontemporal (128-bit), size = 72 MB, loops = 462, 6642.3 MB/s
+Random write nontemporal (128-bit), size = 96 MB, loops = 339, 6503.0 MB/s
+Random write nontemporal (128-bit), size = 128 MB, loops = 251, 6424.6 MB/s
+
+Random write nontemporal (256-bit), size = 256 B, loops = 170393600, 8308.9 MB/s
+Random write nontemporal (256-bit), size = 512 B, loops = 165412864, 16148.2 MB/s
+Random write nontemporal (256-bit), size = 768 B, loops = 165412233, 24226.3 MB/s
+Random write nontemporal (256-bit), size = 1024 B, loops = 139722752, 27281.6 MB/s
+Random write nontemporal (256-bit), size = 1280 B, loops = 109102668, 26625.2 MB/s
+Random write nontemporal (256-bit), size = 2 kB, loops = 88637440, 34618.5 MB/s
+Random write nontemporal (256-bit), size = 3 kB, loops = 62061645, 36361.4 MB/s
+Random write nontemporal (256-bit), size = 4 kB, loops = 46776320, 36534.4 MB/s
+Random write nontemporal (256-bit), size = 6 kB, loops = 31225998, 36590.9 MB/s
+Random write nontemporal (256-bit), size = 8 kB, loops = 21889024, 34195.3 MB/s
+Random write nontemporal (256-bit), size = 12 kB, loops = 14045692, 32914.3 MB/s
+Random write nontemporal (256-bit), size = 16 kB, loops = 10674176, 33347.3 MB/s
+Random write nontemporal (256-bit), size = 20 kB, loops = 8075340, 31536.9 MB/s
+Random write nontemporal (256-bit), size = 24 kB, loops = 7212660, 33803.7 MB/s
+Random write nontemporal (256-bit), size = 28 kB, loops = 6245460, 34152.3 MB/s
+Random write nontemporal (256-bit), size = 32 kB, loops = 5468160, 34160.7 MB/s
+Random write nontemporal (256-bit), size = 34 kB, loops = 4736566, 31450.3 MB/s
+Random write nontemporal (256-bit), size = 36 kB, loops = 4793880, 33700.5 MB/s
+Random write nontemporal (256-bit), size = 40 kB, loops = 4334148, 33858.8 MB/s
+Random write nontemporal (256-bit), size = 48 kB, loops = 3371550, 31603.4 MB/s
+Random write nontemporal (256-bit), size = 64 kB, loops = 2606080, 32567.7 MB/s
+Random write nontemporal (256-bit), size = 72 kB, loops = 2312310, 32510.9 MB/s
+Random write nontemporal (256-bit), size = 80 kB, loops = 2018835, 31541.6 MB/s
+Random write nontemporal (256-bit), size = 96 kB, loops = 1783430, 33432.5 MB/s
+Random write nontemporal (256-bit), size = 128 kB, loops = 1223168, 30575.8 MB/s
+Random write nontemporal (256-bit), size = 192 kB, loops = 799304, 29967.9 MB/s
+Random write nontemporal (256-bit), size = 256 kB, loops = 620800, 31039.8 MB/s
+Random write nontemporal (256-bit), size = 320 kB, loops = 486948, 30428.3 MB/s
+Random write nontemporal (256-bit), size = 384 kB, loops = 384200, 28814.4 MB/s
+Random write nontemporal (256-bit), size = 480 kB, loops = 320824, 30071.5 MB/s
+Random write nontemporal (256-bit), size = 512 kB, loops = 297600, 29749.4 MB/s
+Random write nontemporal (256-bit), size = 768 kB, loops = 198305, 29738.8 MB/s
+Random write nontemporal (256-bit), size = 1 MB, loops = 142208, 28431.8 MB/s
+Random write nontemporal (256-bit), size = 1.25 MB, loops = 112812, 28200.3 MB/s
+Random write nontemporal (256-bit), size = 1.5 MB, loops = 97482, 29241.7 MB/s
+Random write nontemporal (256-bit), size = 1.75 MB, loops = 82944, 29023.7 MB/s
+Random write nontemporal (256-bit), size = 2 MB, loops = 71968, 28785.8 MB/s
+Random write nontemporal (256-bit), size = 2.25 MB, loops = 64372, 28967.0 MB/s
+Random write nontemporal (256-bit), size = 2.5 MB, loops = 57725, 28857.3 MB/s
+Random write nontemporal (256-bit), size = 2.75 MB, loops = 52394, 28812.1 MB/s
+Random write nontemporal (256-bit), size = 3 MB, loops = 47439, 28454.0 MB/s
+Random write nontemporal (256-bit), size = 3.25 MB, loops = 44118, 28675.6 MB/s
+Random write nontemporal (256-bit), size = 3.5 MB, loops = 41166, 28803.9 MB/s
+Random write nontemporal (256-bit), size = 4 MB, loops = 36288, 29022.9 MB/s
+Random write nontemporal (256-bit), size = 5 MB, loops = 29016, 29005.9 MB/s
+Random write nontemporal (256-bit), size = 6 MB, loops = 23990, 28784.0 MB/s
+Random write nontemporal (256-bit), size = 7 MB, loops = 21528, 30124.7 MB/s
+Random write nontemporal (256-bit), size = 8 MB, loops = 18816, 30100.1 MB/s
+Random write nontemporal (256-bit), size = 9 MB, loops = 15862, 28549.0 MB/s
+Random write nontemporal (256-bit), size = 10 MB, loops = 13398, 26786.8 MB/s
+Random write nontemporal (256-bit), size = 11 MB, loops = 11695, 25719.9 MB/s
+Random write nontemporal (256-bit), size = 12 MB, loops = 10105, 24248.8 MB/s
+Random write nontemporal (256-bit), size = 13 MB, loops = 9420, 24488.6 MB/s
+Random write nontemporal (256-bit), size = 14 MB, loops = 8604, 24090.0 MB/s
+Random write nontemporal (256-bit), size = 15 MB, loops = 8072, 24210.0 MB/s
+Random write nontemporal (256-bit), size = 16 MB, loops = 7488, 23960.3 MB/s
+Random write nontemporal (256-bit), size = 20 MB, loops = 5868, 23469.4 MB/s
+Random write nontemporal (256-bit), size = 21 MB, loops = 5520, 23183.1 MB/s
+Random write nontemporal (256-bit), size = 32 MB, loops = 1034, 6611.1 MB/s
+Random write nontemporal (256-bit), size = 48 MB, loops = 678, 6502.2 MB/s
+Random write nontemporal (256-bit), size = 64 MB, loops = 499, 6376.3 MB/s
+Random write nontemporal (256-bit), size = 72 MB, loops = 444, 6383.2 MB/s
+Random write nontemporal (256-bit), size = 96 MB, loops = 326, 6243.9 MB/s
+Random write nontemporal (256-bit), size = 128 MB, loops = 242, 6175.4 MB/s
+
+Sequential copy (64-bit), size = 256 B, loops = 655097856, 31982.1 MB/s
+Sequential copy (64-bit), size = 512 B, loops = 333316096, 32538.1 MB/s
+Sequential copy (64-bit), size = 768 B, loops = 222646788, 32604.8 MB/s
+Sequential copy (64-bit), size = 1024 B, loops = 167313408, 32677.4 MB/s
+Sequential copy (64-bit), size = 1280 B, loops = 133167120, 32505.3 MB/s
+Sequential copy (64-bit), size = 2 kB, loops = 82313216, 32142.4 MB/s
+Sequential copy (64-bit), size = 3 kB, loops = 54765415, 32081.7 MB/s
+Sequential copy (64-bit), size = 4 kB, loops = 36913152, 28829.0 MB/s
+Sequential copy (64-bit), size = 6 kB, loops = 26966418, 31593.1 MB/s
+Sequential copy (64-bit), size = 8 kB, loops = 19136512, 29892.0 MB/s
+Sequential copy (64-bit), size = 12 kB, loops = 11899519, 27887.7 MB/s
+Sequential copy (64-bit), size = 16 kB, loops = 9338880, 29174.2 MB/s
+Sequential copy (64-bit), size = 20 kB, loops = 6008184, 23466.2 MB/s
+Sequential copy (64-bit), size = 24 kB, loops = 5173350, 24244.2 MB/s
+Sequential copy (64-bit), size = 28 kB, loops = 4361760, 23845.0 MB/s
+Sequential copy (64-bit), size = 32 kB, loops = 3840000, 23998.7 MB/s
+Sequential copy (64-bit), size = 34 kB, loops = 3724891, 24728.0 MB/s
+Sequential copy (64-bit), size = 36 kB, loops = 3110380, 21858.5 MB/s
+Sequential copy (64-bit), size = 40 kB, loops = 2837016, 22161.0 MB/s
+Sequential copy (64-bit), size = 48 kB, loops = 2383290, 22342.4 MB/s
+Sequential copy (64-bit), size = 64 kB, loops = 1884160, 23545.8 MB/s
+Sequential copy (64-bit), size = 72 kB, loops = 1746290, 24552.8 MB/s
+Sequential copy (64-bit), size = 80 kB, loops = 1550367, 24216.6 MB/s
+Sequential copy (64-bit), size = 96 kB, loops = 1288298, 24155.2 MB/s
+Sequential copy (64-bit), size = 128 kB, loops = 915456, 22881.4 MB/s
+Sequential copy (64-bit), size = 192 kB, loops = 537416, 20142.8 MB/s
+Sequential copy (64-bit), size = 256 kB, loops = 412672, 20621.3 MB/s
+Sequential copy (64-bit), size = 320 kB, loops = 324156, 20259.1 MB/s
+Sequential copy (64-bit), size = 384 kB, loops = 286280, 21466.1 MB/s
+Sequential copy (64-bit), size = 480 kB, loops = 230656, 21619.9 MB/s
+Sequential copy (64-bit), size = 512 kB, loops = 216064, 21599.5 MB/s
+Sequential copy (64-bit), size = 768 kB, loops = 143225, 21480.9 MB/s
+Sequential copy (64-bit), size = 1 MB, loops = 92672, 18533.5 MB/s
+Sequential copy (64-bit), size = 1.25 MB, loops = 86445, 21605.2 MB/s
+Sequential copy (64-bit), size = 1.5 MB, loops = 71526, 21454.7 MB/s
+Sequential copy (64-bit), size = 1.75 MB, loops = 61200, 21411.4 MB/s
+Sequential copy (64-bit), size = 2 MB, loops = 53120, 21237.1 MB/s
+Sequential copy (64-bit), size = 2.25 MB, loops = 47488, 21362.6 MB/s
+Sequential copy (64-bit), size = 2.5 MB, loops = 42225, 21109.0 MB/s
+Sequential copy (64-bit), size = 2.75 MB, loops = 36478, 20062.8 MB/s
+Sequential copy (64-bit), size = 3 MB, loops = 34146, 20480.6 MB/s
+Sequential copy (64-bit), size = 3.25 MB, loops = 29773, 19342.7 MB/s
+Sequential copy (64-bit), size = 3.5 MB, loops = 27234, 19060.9 MB/s
+Sequential copy (64-bit), size = 4 MB, loops = 22048, 17624.5 MB/s
+Sequential copy (64-bit), size = 5 MB, loops = 15180, 15174.8 MB/s
+Sequential copy (64-bit), size = 6 MB, loops = 11270, 13512.6 MB/s
+Sequential copy (64-bit), size = 7 MB, loops = 8919, 12484.6 MB/s
+Sequential copy (64-bit), size = 8 MB, loops = 7464, 11942.2 MB/s
+Sequential copy (64-bit), size = 9 MB, loops = 6412, 11540.4 MB/s
+Sequential copy (64-bit), size = 10 MB, loops = 5730, 11458.2 MB/s
+Sequential copy (64-bit), size = 11 MB, loops = 4970, 10923.6 MB/s
+Sequential copy (64-bit), size = 12 MB, loops = 4540, 10887.3 MB/s
+Sequential copy (64-bit), size = 13 MB, loops = 4160, 10812.0 MB/s
+Sequential copy (64-bit), size = 14 MB, loops = 3688, 10325.7 MB/s
+Sequential copy (64-bit), size = 15 MB, loops = 3276, 9819.9 MB/s
+Sequential copy (64-bit), size = 16 MB, loops = 3220, 10292.1 MB/s
+Sequential copy (64-bit), size = 20 MB, loops = 2481, 9915.1 MB/s
+Sequential copy (64-bit), size = 21 MB, loops = 2322, 9743.9 MB/s
+Sequential copy (64-bit), size = 32 MB, loops = 1432, 9152.5 MB/s
+Sequential copy (64-bit), size = 48 MB, loops = 929, 8917.5 MB/s
+Sequential copy (64-bit), size = 64 MB, loops = 690, 8820.0 MB/s
+Sequential copy (64-bit), size = 72 MB, loops = 624, 8976.0 MB/s
+Sequential copy (64-bit), size = 96 MB, loops = 471, 9040.5 MB/s
+Sequential copy (64-bit), size = 128 MB, loops = 358, 9152.2 MB/s
+
+Sequential copy (128-bit), size = 256 B, loops = 1333002240, 65081.4 MB/s
+Sequential copy (128-bit), size = 512 B, loops = 665583616, 64995.9 MB/s
+Sequential copy (128-bit), size = 768 B, loops = 445555719, 65266.8 MB/s
+Sequential copy (128-bit), size = 1024 B, loops = 333316096, 65097.1 MB/s
+Sequential copy (128-bit), size = 1280 B, loops = 267382800, 65267.4 MB/s
+Sequential copy (128-bit), size = 2 kB, loops = 166363136, 64982.8 MB/s
+Sequential copy (128-bit), size = 3 kB, loops = 111693485, 65436.4 MB/s
+Sequential copy (128-bit), size = 4 kB, loops = 78741504, 61506.2 MB/s
+Sequential copy (128-bit), size = 6 kB, loops = 55330852, 64839.7 MB/s
+Sequential copy (128-bit), size = 8 kB, loops = 39174144, 61203.5 MB/s
+Sequential copy (128-bit), size = 12 kB, loops = 25852374, 60587.1 MB/s
+Sequential copy (128-bit), size = 16 kB, loops = 19492864, 60905.1 MB/s
+Sequential copy (128-bit), size = 20 kB, loops = 10263708, 40083.5 MB/s
+Sequential copy (128-bit), size = 24 kB, loops = 8539440, 40028.5 MB/s
+Sequential copy (128-bit), size = 28 kB, loops = 7335900, 40109.4 MB/s
+Sequential copy (128-bit), size = 32 kB, loops = 6412288, 40066.3 MB/s
+Sequential copy (128-bit), size = 34 kB, loops = 6366808, 42268.0 MB/s
+Sequential copy (128-bit), size = 36 kB, loops = 5682040, 39941.8 MB/s
+Sequential copy (128-bit), size = 40 kB, loops = 5108922, 39909.0 MB/s
+Sequential copy (128-bit), size = 48 kB, loops = 4246515, 39808.1 MB/s
+Sequential copy (128-bit), size = 64 kB, loops = 3221504, 40263.6 MB/s
+Sequential copy (128-bit), size = 72 kB, loops = 2851940, 40099.5 MB/s
+Sequential copy (128-bit), size = 80 kB, loops = 2561013, 40014.4 MB/s
+Sequential copy (128-bit), size = 96 kB, loops = 2050774, 38443.6 MB/s
+Sequential copy (128-bit), size = 128 kB, loops = 1402368, 35053.7 MB/s
+Sequential copy (128-bit), size = 192 kB, loops = 842952, 31607.1 MB/s
+Sequential copy (128-bit), size = 256 kB, loops = 580096, 28992.6 MB/s
+Sequential copy (128-bit), size = 320 kB, loops = 457776, 28599.3 MB/s
+Sequential copy (128-bit), size = 384 kB, loops = 379950, 28490.7 MB/s
+Sequential copy (128-bit), size = 480 kB, loops = 303280, 28426.8 MB/s
+Sequential copy (128-bit), size = 512 kB, loops = 285696, 28568.9 MB/s
+Sequential copy (128-bit), size = 768 kB, loops = 189125, 28359.6 MB/s
+Sequential copy (128-bit), size = 1 MB, loops = 140160, 28020.6 MB/s
+Sequential copy (128-bit), size = 1.25 MB, loops = 112608, 28145.6 MB/s
+Sequential copy (128-bit), size = 1.5 MB, loops = 92778, 27833.3 MB/s
+Sequential copy (128-bit), size = 1.75 MB, loops = 79524, 27821.8 MB/s
+Sequential copy (128-bit), size = 2 MB, loops = 70656, 28258.1 MB/s
+Sequential copy (128-bit), size = 2.25 MB, loops = 61824, 27811.8 MB/s
+Sequential copy (128-bit), size = 2.5 MB, loops = 54900, 27447.2 MB/s
+Sequential copy (128-bit), size = 2.75 MB, loops = 49473, 27200.3 MB/s
+Sequential copy (128-bit), size = 3 MB, loops = 43239, 25932.4 MB/s
+Sequential copy (128-bit), size = 3.25 MB, loops = 36385, 23649.5 MB/s
+Sequential copy (128-bit), size = 3.5 MB, loops = 32274, 22584.3 MB/s
+Sequential copy (128-bit), size = 4 MB, loops = 26720, 21368.0 MB/s
+Sequential copy (128-bit), size = 5 MB, loops = 18684, 18675.5 MB/s
+Sequential copy (128-bit), size = 6 MB, loops = 12650, 15172.8 MB/s
+Sequential copy (128-bit), size = 7 MB, loops = 9792, 13705.2 MB/s
+Sequential copy (128-bit), size = 8 MB, loops = 8280, 13237.6 MB/s
+Sequential copy (128-bit), size = 9 MB, loops = 7168, 12899.7 MB/s
+Sequential copy (128-bit), size = 10 MB, loops = 6168, 12326.4 MB/s
+Sequential copy (128-bit), size = 11 MB, loops = 5395, 11866.2 MB/s
+Sequential copy (128-bit), size = 12 MB, loops = 4835, 11598.9 MB/s
+Sequential copy (128-bit), size = 13 MB, loops = 4400, 11437.7 MB/s
+Sequential copy (128-bit), size = 14 MB, loops = 4032, 11282.6 MB/s
+Sequential copy (128-bit), size = 15 MB, loops = 3688, 11055.9 MB/s
+Sequential copy (128-bit), size = 16 MB, loops = 3424, 10955.4 MB/s
+Sequential copy (128-bit), size = 20 MB, loops = 2646, 10573.2 MB/s
+Sequential copy (128-bit), size = 21 MB, loops = 2469, 10366.4 MB/s
+Sequential copy (128-bit), size = 32 MB, loops = 1452, 9283.7 MB/s
+Sequential copy (128-bit), size = 48 MB, loops = 939, 9013.7 MB/s
+Sequential copy (128-bit), size = 64 MB, loops = 691, 8836.7 MB/s
+Sequential copy (128-bit), size = 72 MB, loops = 622, 8945.8 MB/s
+Sequential copy (128-bit), size = 96 MB, loops = 464, 8902.3 MB/s
+Sequential copy (128-bit), size = 128 MB, loops = 353, 9015.8 MB/s
+
+Sequential copy (256-bit), size = 256 B, loops = 2637692928, 128789.3 MB/s
+Sequential copy (256-bit), size = 512 B, loops = 1332084736, 130086.0 MB/s
+Sequential copy (256-bit), size = 768 B, loops = 887091912, 129933.4 MB/s
+Sequential copy (256-bit), size = 1024 B, loops = 664993792, 129869.5 MB/s
+Sequential copy (256-bit), size = 1280 B, loops = 529155804, 129173.8 MB/s
+Sequential copy (256-bit), size = 2 kB, loops = 324534272, 126771.0 MB/s
+Sequential copy (256-bit), size = 3 kB, loops = 222163650, 130162.4 MB/s
+Sequential copy (256-bit), size = 4 kB, loops = 148766720, 116222.9 MB/s
+Sequential copy (256-bit), size = 6 kB, loops = 110836456, 129878.1 MB/s
+Sequential copy (256-bit), size = 8 kB, loops = 73465856, 114780.2 MB/s
+Sequential copy (256-bit), size = 12 kB, loops = 49285525, 115509.3 MB/s
+Sequential copy (256-bit), size = 16 kB, loops = 36933632, 115406.2 MB/s
+Sequential copy (256-bit), size = 20 kB, loops = 13166244, 51428.2 MB/s
+Sequential copy (256-bit), size = 24 kB, loops = 10969140, 51413.5 MB/s
+Sequential copy (256-bit), size = 28 kB, loops = 9505080, 51977.2 MB/s
+Sequential copy (256-bit), size = 32 kB, loops = 8230912, 51432.3 MB/s
+Sequential copy (256-bit), size = 34 kB, loops = 7702219, 51139.6 MB/s
+Sequential copy (256-bit), size = 36 kB, loops = 7343700, 51635.4 MB/s
+Sequential copy (256-bit), size = 40 kB, loops = 6525792, 50972.5 MB/s
+Sequential copy (256-bit), size = 48 kB, loops = 5524155, 51783.8 MB/s
+Sequential copy (256-bit), size = 64 kB, loops = 4203520, 52543.6 MB/s
+Sequential copy (256-bit), size = 72 kB, loops = 3781050, 53160.0 MB/s
+Sequential copy (256-bit), size = 80 kB, loops = 3454542, 53973.3 MB/s
+Sequential copy (256-bit), size = 96 kB, loops = 2917596, 54693.5 MB/s
+Sequential copy (256-bit), size = 128 kB, loops = 1875456, 46877.4 MB/s
+Sequential copy (256-bit), size = 192 kB, loops = 903991, 33894.5 MB/s
+Sequential copy (256-bit), size = 256 kB, loops = 617472, 30872.4 MB/s
+Sequential copy (256-bit), size = 320 kB, loops = 487356, 30448.4 MB/s
+Sequential copy (256-bit), size = 384 kB, loops = 399160, 29934.5 MB/s
+Sequential copy (256-bit), size = 480 kB, loops = 321504, 30129.6 MB/s
+Sequential copy (256-bit), size = 512 kB, loops = 302080, 30201.5 MB/s
+Sequential copy (256-bit), size = 768 kB, loops = 202045, 30293.3 MB/s
+Sequential copy (256-bit), size = 1 MB, loops = 149888, 29965.5 MB/s
+Sequential copy (256-bit), size = 1.25 MB, loops = 118575, 29638.7 MB/s
+Sequential copy (256-bit), size = 1.5 MB, loops = 100212, 30062.8 MB/s
+Sequential copy (256-bit), size = 1.75 MB, loops = 85608, 29958.3 MB/s
+Sequential copy (256-bit), size = 2 MB, loops = 74304, 29721.4 MB/s
+Sequential copy (256-bit), size = 2.25 MB, loops = 66332, 29845.1 MB/s
+Sequential copy (256-bit), size = 2.5 MB, loops = 59250, 29624.0 MB/s
+Sequential copy (256-bit), size = 2.75 MB, loops = 53222, 29270.1 MB/s
+Sequential copy (256-bit), size = 3 MB, loops = 46914, 28139.5 MB/s
+Sequential copy (256-bit), size = 3.25 MB, loops = 39482, 25660.5 MB/s
+Sequential copy (256-bit), size = 3.5 MB, loops = 35748, 25013.5 MB/s
+Sequential copy (256-bit), size = 4 MB, loops = 29568, 23644.4 MB/s
+Sequential copy (256-bit), size = 5 MB, loops = 19632, 19626.2 MB/s
+Sequential copy (256-bit), size = 6 MB, loops = 12960, 15551.2 MB/s
+Sequential copy (256-bit), size = 7 MB, loops = 9315, 13028.8 MB/s
+Sequential copy (256-bit), size = 8 MB, loops = 7904, 12642.8 MB/s
+Sequential copy (256-bit), size = 9 MB, loops = 6790, 12215.8 MB/s
+Sequential copy (256-bit), size = 10 MB, loops = 5808, 11609.0 MB/s
+Sequential copy (256-bit), size = 11 MB, loops = 5060, 11130.7 MB/s
+Sequential copy (256-bit), size = 12 MB, loops = 4500, 10796.0 MB/s
+Sequential copy (256-bit), size = 13 MB, loops = 3992, 10376.1 MB/s
+Sequential copy (256-bit), size = 14 MB, loops = 3732, 10447.2 MB/s
+Sequential copy (256-bit), size = 15 MB, loops = 3408, 10216.1 MB/s
+Sequential copy (256-bit), size = 16 MB, loops = 3196, 10226.3 MB/s
+Sequential copy (256-bit), size = 20 MB, loops = 2484, 9935.1 MB/s
+Sequential copy (256-bit), size = 21 MB, loops = 2307, 9687.2 MB/s
+Sequential copy (256-bit), size = 32 MB, loops = 1430, 9151.1 MB/s
+Sequential copy (256-bit), size = 48 MB, loops = 935, 8974.3 MB/s
+Sequential copy (256-bit), size = 64 MB, loops = 694, 8871.4 MB/s
+Sequential copy (256-bit), size = 72 MB, loops = 617, 8880.1 MB/s
+Sequential copy (256-bit), size = 96 MB, loops = 456, 8748.8 MB/s
+Sequential copy (256-bit), size = 128 MB, loops = 346, 8851.7 MB/s
+
+64-bit main register to main register transfers: 16.20 billion/second
+Vector register to main register transfers (64-bit): 4.35 billion/second
+Vector 8-bit datum to main register transfers: 4.36 billion/second
+Vector 16-bit datum to main register transfers: 4.37 billion/second
+Vector 32-bit datum to main register transfers: 4.39 billion/second
+Main register to vector register transfers (64-bit): 4.39 billion/second
+Main register 8-bit datum to vector register transfers: 2.20 billion/second
+Main register 16-bit datum to vector register transfers: 2.21 billion/second
+Main register 32-bit datum to vector register transfers: 2.20 billion/second
+Vector register to vector register transfers (128-bit): 13.15 billion/second
+Vector register to vector register transfers (256-bit): 11.07 billion/second
+64-bit stack-to-register transfers: 6.05 billion/second
+64-bit register-to-stack transfers: 2.91 billion/second
+64-bit register increments: 12.83 billion/second
+64-bit stack value increments: 4.09 billion/second
+
+Wrote graph to bandwidth.bmp
+
+Done.
+Deallocated classes Object, Console, CPU, Array, MutableArray, String, Hardware, OperatingSystem, Testing, TestingX86, SimpleGraphing, Font, FontPK, Image, MutableImage, RectStack, Int
+All objects that were allocated were deallocated.

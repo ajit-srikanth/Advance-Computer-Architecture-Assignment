@@ -1,0 +1,23 @@
+┏[ ajit from  MSI][ 0.014s][ RAM: 1/8GB][ Wednesday at 4:31:59 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ gcc -march=native -o gflops.out gflops.c
+┏[ ajit from  MSI][ 0.22s][ RAM: 1/8GB][ Wednesday at 4:32:27 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo /usr/lib/linux-tools/5.4.0-149-generic/perf stat -e task-clock,cycles,instructions ./gflops.out
+Sum: 144115188075855872.000000
+
+ Performance counter stats for './gflops.out':
+
+           2975.05 msec task-clock                #    1.000 CPUs utilized
+       10611086812      cycles                    #    3.567 GHz
+       12457395798      instructions              #    1.17  insn per cycle
+
+       2.975503618 seconds time elapsed
+
+       2.494479000 seconds user
+       0.480863000 seconds sys
+
+
+
+
+==> ~ 1.17 FLOP per cycle * 5G cycles / s (here clock speed is 3.567 but peak is 5) * 6 cores => 35 GFlops

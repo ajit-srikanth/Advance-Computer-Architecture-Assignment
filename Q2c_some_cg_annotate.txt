@@ -1,0 +1,184 @@
+┏[ ajit from  MSI][ 0.028s][ RAM: 1/8GB][ Wednesday at 6:48:29 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3373
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_64.out
+Data file:        cachegrind.out.3373
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr      DLmr    Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+1,272,282,106 1,794 1,734 418,767,286 7,936,388 174,012 140,896,143 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr      DLmr    Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+1,229,340,172    8    8 406,952,825 7,919,170 163,668 136,315,036      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304         3       3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304         0       0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589       386     386   1,048,598 33,024 33,024  ???:main
+    2,621,440    1    1     524,288         0       0     524,288      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/rand.c:rand
+
+┏[ ajit from  MSI][ 0.053s][ RAM: 1/8GB][ Wednesday at 6:48:33 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3392
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_128.out
+Data file:        cachegrind.out.3392
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr      DLmr    Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+1,261,487,794 1,794 1,734 416,590,318 9,355,204 108,565 139,847,463 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr      DLmr   Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+1,218,545,860    8    8 404,775,857 9,337,985 98,381 135,266,356      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304         3      3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304         0      0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589       386    386   1,048,598 33,024 33,024  ???:main
+    2,621,440    1    1     524,288         0      0     524,288      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/rand.c:rand
+
+┏[ ajit from  MSI][ 0.056s][ RAM: 1/8GB][ Wednesday at 6:48:46 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3354
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_32.out
+Data file:        cachegrind.out.3354
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr      DLmr    Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+1,294,537,834 1,794 1,734 423,304,102 1,042,719 305,252 142,993,695 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr      DLmr    Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+1,251,595,900    8    8 411,489,641 1,025,502 294,828 138,412,588      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304         3       3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304         0       0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589       386     386   1,048,598 33,024 33,024  ???:main
+    2,621,440    1    1     524,288         0       0     524,288      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/rand.c:rand
+
+┏[ ajit from  MSI][ 0.051s][ RAM: 1/8GB][ Wednesday at 6:48:58 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3319
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_8.out
+Data file:        cachegrind.out.3319
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr      DLmr    Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+1,451,266,954 1,794 1,734 457,742,278 4,508,011 884,390 155,584,383 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr      DLmr    Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+1,408,325,020    8    8 445,927,817 4,490,794 873,919 151,003,276      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304         3       3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304         0       0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589       386     386   1,048,598 33,024 33,024  ???:main
+    2,621,440    1    1     524,288         0       0     524,288      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/rand.c:rand
+
+┏[ ajit from  MSI][ 0.047s][ RAM: 1/8GB][ Wednesday at 6:49:01 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3297
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_4.out
+Data file:        cachegrind.out.3297
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr       DLmr      Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+1,746,176,266 1,794 1,734 534,088,006 13,682,407 1,264,545 172,386,303 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr       DLmr      Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+1,703,234,332    8    8 522,273,545 13,665,190 1,254,080 167,805,196      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304          3         3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304          0         0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589        386       386   1,048,598 33,024 33,024  ???:main
+    2,621,440    1    1     524,288          0         0     524,288      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/rand.c:rand
+
+┏[ ajit from  MSI][ 0.049s][ RAM: 1/8GB][ Wednesday at 6:49:13 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo cg_annotate cachegrind.out.3272
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 32-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         1048576 B, 64 B, 16-way associative
+Command:          ./matmul_tiled_2.out
+Data file:        cachegrind.out.3272
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:
+User annotated:
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir            I1mr  ILmr  Dr          D1mr       DLmr      Dw          D1mw   DLmw
+--------------------------------------------------------------------------------
+2,795,787,274 1,794 1,734 867,781,702 50,431,265 1,943,979 206,039,295 85,722 84,771  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir            I1mr ILmr Dr          D1mr       DLmr      Dw          D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+2,752,845,340    8    8 855,967,241 50,414,048 1,933,526 201,458,188      1      1  ???:multiply_tiled(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >&)
+   16,709,568    3    3   4,194,304          3         3   1,572,864      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random_r.c:random_r
+   11,010,048    2    2   4,194,304          0         0   1,048,576      0      0  /build/glibc-SzIz7B/glibc-2.31/stdlib/random.c:random
+    7,080,530    8    8   1,048,589        386       386   1,048,598 33,024 33,024  ???:main

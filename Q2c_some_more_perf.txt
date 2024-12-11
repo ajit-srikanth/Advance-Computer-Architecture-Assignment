@@ -1,0 +1,144 @@
+┏[ ajit from  MSI][ 0.013s][ RAM: 1/8GB][ Wednesday at 6:36:23 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ sudo bash q2c.sh
+[sudo] password for ajit:
+Sorry, try again.
+[sudo] password for ajit:
+Running with TILE_SIZE=2
+
+ Performance counter stats for './matmul_tiled.out':
+
+          27479.76 msec task-clock                #    1.000 CPUs utilized
+       98352199649      cycles                    #    3.579 GHz
+      176802935347      instructions              #    1.80  insn per cycle
+       15520747500      cache-references          #  564.807 M/sec
+         556063816      cache-misses              #    3.583 % of all cache refs
+       54956711540      L1-dcache-loads           # 1999.898 M/sec
+        6155206574      L1-dcache-load-misses     #   11.20% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+      27.480844064 seconds time elapsed
+
+      27.450185000 seconds user
+       0.030000000 seconds sys
+
+
+Running with TILE_SIZE=4
+
+ Performance counter stats for './matmul_tiled.out':
+
+          12645.21 msec task-clock                #    1.000 CPUs utilized
+       44475955182      cycles                    #    3.517 GHz
+      109672872888      instructions              #    2.47  insn per cycle
+        4047289734      cache-references          #  320.065 M/sec
+         307300773      cache-misses              #    7.593 % of all cache refs
+       33610922015      L1-dcache-loads           # 2657.996 M/sec
+        1650270891      L1-dcache-load-misses     #    4.91% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+      12.645641294 seconds time elapsed
+
+      12.635510000 seconds user
+       0.010004000 seconds sys
+
+
+Running with TILE_SIZE=8
+
+ Performance counter stats for './matmul_tiled.out':
+
+           8409.35 msec task-clock                #    1.000 CPUs utilized
+       27972440145      cycles                    #    3.326 GHz
+       90809848748      instructions              #    3.25  insn per cycle
+        1099418600      cache-references          #  130.738 M/sec
+         174898198      cache-misses              #   15.908 % of all cache refs
+       28727386392      L1-dcache-loads           # 3416.126 M/sec
+         648445477      L1-dcache-load-misses     #    2.26% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       8.409785844 seconds time elapsed
+
+       8.389710000 seconds user
+       0.019999000 seconds sys
+
+
+Running with TILE_SIZE=16
+
+ Performance counter stats for './matmul_tiled.out':
+
+           7372.24 msec task-clock                #    1.000 CPUs utilized
+       25103681936      cycles                    #    3.405 GHz
+       83820476971      instructions              #    3.34  insn per cycle
+         459120050      cache-references          #   62.277 M/sec
+         126959840      cache-misses              #   27.653 % of all cache refs
+       27160421994      L1-dcache-loads           # 3684.147 M/sec
+         350218819      L1-dcache-load-misses     #    1.29% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       7.372720736 seconds time elapsed
+
+       7.362514000 seconds user
+       0.010003000 seconds sys
+
+
+Running with TILE_SIZE=32
+
+ Performance counter stats for './matmul_tiled.out':
+
+           7879.29 msec task-clock                #    0.999 CPUs utilized
+       27951885454      cycles                    #    3.548 GHz
+       80782604457      instructions              #    2.89  insn per cycle
+         405499930      cache-references          #   51.464 M/sec
+         159735331      cache-misses              #   39.392 % of all cache refs
+       26524095507      L1-dcache-loads           # 3366.304 M/sec
+         626027393      L1-dcache-load-misses     #    2.36% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       7.886134097 seconds time elapsed
+
+       7.879662000 seconds user
+       0.000000000 seconds sys
+
+
+Running with TILE_SIZE=64
+
+ Performance counter stats for './matmul_tiled.out':
+
+           8738.09 msec task-clock                #    1.000 CPUs utilized
+       31429973363      cycles                    #    3.597 GHz
+       79359366832      instructions              #    2.52  insn per cycle
+         258349692      cache-references          #   29.566 M/sec
+          82191212      cache-misses              #   31.814 % of all cache refs
+       26233955902      L1-dcache-loads           # 3002.253 M/sec
+         704615051      L1-dcache-load-misses     #    2.69% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       8.738521235 seconds time elapsed
+
+       8.718432000 seconds user
+       0.019996000 seconds sys
+
+
+Running with TILE_SIZE=128
+
+ Performance counter stats for './matmul_tiled.out':
+
+           9367.66 msec task-clock                #    1.000 CPUs utilized
+       33770278863      cycles                    #    3.605 GHz
+       78668213701      instructions              #    2.33  insn per cycle
+         447726834      cache-references          #   47.795 M/sec
+          37784325      cache-misses              #    8.439 % of all cache refs
+       26094615701      L1-dcache-loads           # 2785.606 M/sec
+         713140975      L1-dcache-load-misses     #    2.73% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       9.368429515 seconds time elapsed
+
+       9.358039000 seconds user
+       0.010008000 seconds sys

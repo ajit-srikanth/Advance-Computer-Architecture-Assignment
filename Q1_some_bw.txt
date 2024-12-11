@@ -1,0 +1,23 @@
+┏[ ajit from  MSI][ 1.833s][ RAM: 2/8GB][ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ gcc -Ofast -pthread -march=native -fopenmp -DSTREAM_TYPE=double teststream.c -o teststream.out && ./teststream.out
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 6000000 (elements), Offset = 0 (elements)
+Memory per array = 45.8 MiB (= 0.0 GiB).
+Total memory required = 137.3 MiB (= 0.1 GiB).
+Each kernel will be executed 100 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Number of Threads requested = 12
+Number of Threads counted = 12
+-------------------------------------------------------------
+Best Rate MB/s Avg Rate MB/s  Avg time     Min time     Max time
+     28260.3      24862.5     0.003861     0.003397     0.006200
+
+
+┏[ ajit from  MSI][ 1.214s][ RAM: 2/8GB][ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ gcc -Ofast -pthread -march=native membwtest.c -o membwtest.out && ./membwtest.out
+          write_memory_rep_stosq: 24.35 GiB/s

@@ -1,0 +1,42 @@
+┏[ ajit from  MSI][ 0.008s][ RAM: 3/8GB][ Wednesday at 3:50:36 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ g++ -O3 -DN=512 matmul_recursive_strassen.cpp -o matmul_recursive_strassen.out && sudo /usr/lib/linux-tools/5.4.0-149-generic/perf stat -e task-clock,cycles,instructions,cache-references,cache-misses -d ./matmul_recursive_strassen.out
+
+ Performance counter stats for './matmul_recursive_strassen.out':
+
+          16439.17 msec task-clock                #    1.000 CPUs utilized
+       63149008916      cycles                    #    3.841 GHz
+      202288217196      instructions              #    3.20  insn per cycle
+          83946666      cache-references          #    5.107 M/sec
+          28895401      cache-misses              #   34.421 % of all cache refs
+       53679704994      L1-dcache-loads           # 3265.354 M/sec
+          87706053      L1-dcache-load-misses     #    0.16% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+      16.440884581 seconds time elapsed
+
+      16.439474000 seconds user
+       0.000000000 seconds sys
+
+
+┏[ ajit from  MSI][ 18.134s][ RAM: 3/8GB][ Wednesday at 3:50:55 PM] [ base 3.10.13 ]
+┖[~/vect_test]
+└─Δ g++ -O3 -DTILE_SIZE=16 -DN=512 matmul_tiled.cpp -o matmul_tiled.out && sudo /usr/lib/linux-tools/5.4.0-149-generic/perf stat -e task-clock,cycles,instructions,cache-references,cache-misses -d ./matmul_tiled.out
+
+ Performance counter stats for './matmul_tiled.out':
+
+             83.51 msec task-clock                #    0.995 CPUs utilized
+         335425285      cycles                    #    4.016 GHz
+        1327355655      instructions              #    3.96  insn per cycle
+           2644169      cache-references          #   31.662 M/sec
+            289799      cache-misses              #   10.960 % of all cache refs
+         426750153      L1-dcache-loads           # 5110.015 M/sec
+           3524945      L1-dcache-load-misses     #    0.83% of all L1-dcache hits
+   <not supported>      LLC-loads
+   <not supported>      LLC-load-misses
+
+       0.083958202 seconds time elapsed
+
+       0.083904000 seconds user
+       0.000000000 seconds sys
